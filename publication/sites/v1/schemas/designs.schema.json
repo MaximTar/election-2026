@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","properties":{"abc":{"required":["components","designs","default"],"type":"object"},"d_specifications":{"maxItems":5,"minItems":5,"type":"array"}},"required":["abc","d_specifications","provenance"],"type":"object"}

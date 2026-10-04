@@ -1,0 +1,79 @@
+{
+  "decisions": [
+    {
+      "alternatives_considered": [
+        "Rewrite canonical manifest/state files (prohibited)",
+        "Add a separate delivery projection (selected)"
+      ],
+      "decision": "Add runtime subtree without editing any accepted canonical file or accepted generator/checker.",
+      "downstream_consequences": "Use the scoped runtime checker for the additive graph, retaining older sealed evidence.",
+      "id": "RUNTIME_ADDITIVE_CANONICAL_IMMUTABLE",
+      "origin": "user requirement",
+      "quantitative_impact": {
+        "accepted_files_verified": 1640,
+        "canonical_files_changed": 0,
+        "public_states_unchanged": 2064
+      },
+      "rationale": "Transport optimization is not a replacement scientific/publication contract.",
+      "reversibility": "Canonical view remains independently available; future delivery versions require separate engineering authorization."
+    },
+    {
+      "alternatives_considered": [
+        "Whole ABC list",
+        "D source-only shards including large D4",
+        "Unnecessary symmetric small-method sharding"
+      ],
+      "decision": "ABC source/design shards; D source/frozen-specification shards; four smaller state lists canonical-backed.",
+      "downstream_consequences": "Select an explicit route, then an existing state. No Cartesian-product inference.",
+      "id": "RUNTIME_NATURAL_SHARD_KEYS",
+      "origin": "researcher/Codex choice",
+      "quantitative_impact": {
+        "ABC_shards": 64,
+        "D_shards": 20,
+        "default_ABC_shard_raw_bytes": 110036,
+        "default_D_shard_raw_bytes": 22941,
+        "states_per_ABC_shard": 25
+      },
+      "rationale": "Existing metadata defines these keys exactly; D4 group diagnostics should not load with D0.",
+      "reversibility": "Only routing and storage organization; state records and IDs remain canonical."
+    },
+    {
+      "alternatives_considered": [
+        "Assume CDN compression (not established)",
+        "Raw-only delivery",
+        "Explicit gzip alternatives (selected)"
+      ],
+      "decision": "Provide raw JSON and deterministic binary gzip alternatives; report both sizes without assuming CDN behavior.",
+      "downstream_consequences": "Validate hosting Content-Encoding behavior; never double-decompress a .gz asset.",
+      "id": "RUNTIME_EXPLICIT_GZIP_ALTERNATIVES",
+      "origin": "researcher/Codex choice",
+      "quantitative_impact": {
+        "bootstrap_generated_gzip_bytes": 18387,
+        "bootstrap_raw_bytes": 85307,
+        "physical_runtime_bytes": 11395608,
+        "runtime_files": 187
+      },
+      "rationale": "Static delivery can reduce transfers while retaining raw fallback representation and exact byte equality.",
+      "reversibility": "Alternate encodings carry identical logical records; future client may choose either once."
+    },
+    {
+      "alternatives_considered": [
+        "Duplicate/decode exact resources for ordinary charts (rejected)",
+        "Compare display values alone (rejected)"
+      ],
+      "decision": "Preserve full records, exact references, guards/defaults/coverage, 444 additional public states, zero internal reachability and two CARD_ONLY methods.",
+      "downstream_consequences": "Use prepared display fields; pooled exact integer strings stay strings with zero client scientific arithmetic.",
+      "id": "RUNTIME_LAZY_EXACT_VISIBILITY_AND_SEMANTICS",
+      "origin": "source constraint",
+      "quantitative_impact": {
+        "exact_sidecars_copied": 0,
+        "new_exclusions": 0,
+        "new_scientific_states": 0,
+        "ordinary_view_exact_reads": 0
+      },
+      "rationale": "Accepted visibility and numerical semantics are authoritative; lazy exact resources already exist.",
+      "reversibility": "No scientific change; accepted records remain the authority."
+    }
+  ],
+  "scientific_methodological_choices": 0
+}

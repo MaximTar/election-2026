@@ -1,0 +1,65 @@
+name: Deploy immutable publication data
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'publication/sites/v1/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout accepted static files
+        uses: actions/checkout@v6
+      - name: Verify immutable manifests and static file closure
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('publication/sites/v1')
+          expected = {
+              'manifest.json': '38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16',
+              'runtime/manifest.json': '3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c',
+          }
+          def verify(path, digest, size=None):
+              assert path.is_file() and not path.is_symlink(), str(path)
+              assert hashlib.sha256(path.read_bytes()).hexdigest() == digest, str(path)
+              assert size is None or path.stat().st_size == size, str(path)
+          for name, digest in expected.items():
+              verify(root / name, digest)
+          for base in (root, root / 'runtime'):
+              manifest = json.loads((base / 'manifest.json').read_bytes())
+              for name, item in manifest['files'].items():
+                  path = (base / name).resolve()
+                  assert path.is_relative_to(root.resolve()), name
+                  verify(path, item['sha256'], item['bytes'])
+          assert not any(p.is_symlink() for p in root.rglob('*'))
+          print('Immutable static bytes verified; no generation or scientific execution.')
+          PY
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload publication directory only
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: publication/sites/v1/
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

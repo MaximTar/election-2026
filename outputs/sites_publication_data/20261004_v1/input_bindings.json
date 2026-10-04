@@ -1,0 +1,45 @@
+{
+  "authority": "Canonical publication contract establishes all 1620 cells; revealed exact sidecars resolve published exact references; 444 PUBLIC additional method states only; closure supplies NON_MODEL anchor support and accepted provenance.",
+  "files": {
+    "outputs/smz_publication_package/20261001_v1/canonical_data/baselines.json": "b17ffed489dd9942b6f0f3608243a5850bd8fe677aecb5397bcbf90aceb75c1b",
+    "outputs/smz_publication_package/20261001_v1/canonical_data/cells.json.gz": "c382ef2a86bf6b3616045731ad905c9cffeb50c04ef12bfb5289ab58a6a2a9a7",
+    "outputs/smz_publication_package/20261001_v1/canonical_data/contract.json": "bf3d50ec2d99bfd886f20336f970bb0292de3a607ae1035a435864521ce57279",
+    "outputs/smz_publication_package/20261001_v1/design_metadata.json": "2d3b9c5f50c083a7a91150b8b5e28c6de5175d152454b18db1931880d4399f54",
+    "outputs/smz_publication_package/20261001_v1/model_metadata.json": "9a7ef0d26fa0717e3ecf4b1b7fb714e5c479c689bac40c84681d026554a82a5c",
+    "outputs/smz_publication_package/20261001_v1/numbers_registry.json": "01fc126a751f14a405b7d03554f79060bfea35aefde38db5f29972a1c76359a6",
+    "outputs/smz_publication_package/20261001_v1/source_metadata.json": "89d8850cdc96f13108b249a7113da8fa08deada076f206cef9bedc897bb65110",
+    "outputs/smz_run01_interpretation/20261001_v1/D_stratum_diagnostics.csv": "1fb446a3e6af97142709f34edf6d2ce41bd588a36e91199b922797d9f06f660d",
+    "outputs/smz_run01_reveal/20261001_v1/canonical_cell_inventory.json": "75d34c3e2317691bdaf18873f8037cf619d5cde0a4e277487f32653ab8ea370e",
+    "outputs/smz_v2_external_closure/20261003_v1/cedar_anchor_support.csv": "edbfaf88ac1b01d148ebb3adfa74e8a7757bfb9468551dd5c22d6511ef70e3f8",
+    "outputs/smz_v2_external_closure/20261003_v1/external_methods_source_index.json": "8f17e76bb1be8ed8c930586bb803b960177a06b3a674a4293f33b6cce40fda24",
+    "outputs/smz_v2_external_closure/20261003_v1/provenance_links.json": "d4ea498165a79091e9f1a179e27c99b423efa28fc6bfa5de3c93a8402bc9e6fe",
+    "outputs/smz_v2_external_freeze/20261002_v2/region_index.json": "5f8412b37b946316c8d9f7c5e08f6fad3991cd429fe0636d9ca2d5cbd0b23d7c",
+    "outputs/smz_v2_external_joint_reveal/20261003_v1/stored_results.json": "90937fe41697d5d99e74f5ceb59260d378f7bb40f825848bd64ea46298ec324e"
+  },
+  "manifests": [
+    {
+      "path": "outputs/smz_publication_package/20261001_v1/manifest.json",
+      "sha256": "9b420792e74466fde297b1c03dc4247e3a4526d19bd836b783112b8723d9b48a"
+    },
+    {
+      "path": "outputs/smz_run01_reveal/20261001_v1/manifest.json",
+      "sha256": "b501f8bdfc6bc7004300a5ad8761d2b82f4b45008e3788da88549820d62c9503"
+    },
+    {
+      "path": "outputs/smz_v2_external_joint_reveal/20261003_v1/manifest.json",
+      "sha256": "5176c9c067aa3f88ebd77e3bf5836aa9233b51ea3664b726e87632a87026ed43"
+    },
+    {
+      "path": "outputs/smz_v2_external_closure/20261003_v1/manifest.json",
+      "sha256": "06cf02d7d8e2c32b89a4af78246a48fd5e692cfe9d2066ab3caf6b78116d86f5"
+    },
+    {
+      "path": "outputs/smz_run01_interpretation/20261001_v1/manifest.json",
+      "sha256": "04aef6f926d9986ee24102d82e514702707f0c6e38b0cfaab646538bfc8e5c45"
+    },
+    {
+      "path": "outputs/smz_v2_external_freeze/20261002_v2/manifest.json",
+      "sha256": "942f34530a5456b2a83048f8c9fa3c4003998941b2da5ebae7b72eafcc0218d5"
+    }
+  ]
+}

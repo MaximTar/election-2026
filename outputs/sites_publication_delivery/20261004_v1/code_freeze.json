@@ -1,0 +1,9 @@
+{
+  "files": {
+    "src/analysis/research_handoff.py": "a53f2a12540e04478e34fe7411075c115db7634bcbdd0213cebbef54b5940e35",
+    "src/publication_sites/runtime_check.py": "e6a3f5ae40f5e7e6146b417d78532cd6fa7fc0d8c5238e4f0b40615ced69f8a4",
+    "src/publication_sites/runtime_common.py": "61933f5d2fee3e873746f50d184f90015c9cdb59947897e36dc69587853ec08f",
+    "src/publication_sites/runtime_generate.py": "c32f8ecf943bab37a3d3f5274b8d9aa14c5c24589349fecf6ddec44560db8717",
+    "src/publication_sites/runtime_measure.py": "648861ae1212da110e7d9f85390bf356066861e914e429f6bca9fb4b4a82329b"
+  }
+}

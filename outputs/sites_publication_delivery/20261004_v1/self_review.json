@@ -1,0 +1,29 @@
+{
+  "accepted_limitations": [
+    "Hosting Content-Encoding not yet verified",
+    "D4 per-group diagnostics remain a larger on-demand resource",
+    "Accepted older closed-inventory checker/generator must not be run across the additive runtime subtree",
+    "Inherited editorial/source-fidelity gaps remain pending"
+  ],
+  "affirmative_findings": [
+    "All 1640 accepted canonical files and original five generator/checker code files have unchanged hashes.",
+    "2064 complete state records reconstruct exactly; no display-only comparison, ID/default change or scientific state duplication.",
+    "64 ABC shards of 25 states and 20 D shards preserve existing natural metadata keys; D4 remains larger and lazy.",
+    "444 additional public states remain canonical-backed; INTERNAL is unreachable and CARD_ONLY has no project result.",
+    "Explicit gzip aliases are alternate transports, not extra scientific states; exact sidecars are neither copied nor decoded.",
+    "Older canonical tools use a closed recursive inventory; their sealed code is unchanged and the new checker scopes the additive subtree.",
+    "Source/native/LOO support and different estimands remain unchanged; no common-frame restriction or collateral exclusions.",
+    "Host compression behavior and final editorial copy remain separate pending engineering/editorial work."
+  ],
+  "article_edited": false,
+  "blockers": [],
+  "new_exclusions": 0,
+  "new_fits": 0,
+  "new_methodological_choices": 0,
+  "new_model_calls": 0,
+  "new_scientific_states": 0,
+  "new_universes": 0,
+  "review_type": "SEPARATE_POST_IMPLEMENTATION_ENGINEERING_SELF_REVIEW",
+  "site_UI_implemented": false,
+  "status": "PASS"
+}

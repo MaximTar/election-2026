@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","properties":{"api_version":{"const":"1"},"party_order":{"maxItems":10,"minItems":10,"type":"array"},"sources":{"maxProperties":4,"minProperties":4,"required":["primary","S1","S2a","S2b"],"type":"object"}},"required":["api_version","party_order","sources"],"type":"object"}

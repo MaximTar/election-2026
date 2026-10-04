@@ -1,0 +1,46 @@
+{
+  "article_files_modified": 0,
+  "frozen_scientific_or_result_files_modified": 0,
+  "modified_existing_files": [
+    {
+      "after_sha256": "edbd1d2c28739d8d656eb6c66af0aceda5a9fc93f583d6d37b2ea9b133a5c9b7",
+      "before_sha256": "0d9b030f5473f3fb0ae3e6dcb4f879c9268092059b12454cf68e25d0b202c7a3",
+      "historical_bytes_archive": "outputs/sites_publication_data/20261004_v1/before/docs/RESEARCH_HANDOFF.md",
+      "path": "docs/RESEARCH_HANDOFF.md",
+      "purpose": "Append-only publication-stage registration and scoped checker dispatch"
+    },
+    {
+      "after_sha256": "c29ee98c7977ac7eacc49944a6cd59b9c501ec3145ee7566c141d8f525de1d6b",
+      "before_sha256": "815f09f91752e637ad49ac4eced234bb10d00b33c63b2666d014dfd7f96b748d",
+      "historical_bytes_archive": "outputs/sites_publication_data/20261004_v1/before/outputs/metadata/research_state.json",
+      "path": "outputs/metadata/research_state.json",
+      "purpose": "Append-only publication-stage registration and scoped checker dispatch"
+    },
+    {
+      "after_sha256": "ab8725a3e934ff8679acd97cc58c4cadb83feedd621e5f007540c56e31667c44",
+      "before_sha256": "681d70e740aa02560a199205c6d12ccf2b498e40f7881b88f23211d308430ed6",
+      "historical_bytes_archive": "outputs/sites_publication_data/20261004_v1/before/src/smz_stage_registry.py",
+      "path": "src/smz_stage_registry.py",
+      "purpose": "Append-only publication-stage registration and scoped checker dispatch"
+    },
+    {
+      "after_sha256": "f8158387540ed690c55a30a35ac4d9bae8fff0c5c38d131fadecbea9420f8b14",
+      "before_sha256": "8cce82ae5ed334416a681c79bb7926b1af128d1611c7a706edfaf7a9fd6b02e2",
+      "historical_bytes_archive": "outputs/sites_publication_data/20261004_v1/before/src/analysis/research_handoff.py",
+      "path": "src/analysis/research_handoff.py",
+      "purpose": "Append-only publication-stage registration and scoped checker dispatch"
+    }
+  ],
+  "new_engineering_source_files": {
+    "src/publication_sites/__init__.py": "ccabed17be678d96ab10900a4c51fb341f1c8dbe38139348b0e3d7d60012e806",
+    "src/publication_sites/__main__.py": "01298a225ba586411645fd3b7671ea45275f7237e92e42d9f1e0519c912460f7",
+    "src/publication_sites/check.py": "ad8f945835af67de43ea046168970d980069836ecff5bbc03fd6afba72a500ab",
+    "src/publication_sites/data.py": "096969e7510c663e5f64bbf54744d650c8535c3dc82e83d6f4f25abab3fd0711",
+    "src/publication_sites/generate.py": "144d7976ea47002b1ce5ba7779d5190f8b139c3828238cb24d5b764b13962cd5"
+  },
+  "new_evidence_inventory": "outputs/sites_publication_data/20261004_v1/manifest.json",
+  "new_public_file_count": 1640,
+  "new_public_files_inventory": "publication/sites/v1/manifest.json",
+  "new_public_manifest_sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+  "site_implementation_files_modified": 0
+}

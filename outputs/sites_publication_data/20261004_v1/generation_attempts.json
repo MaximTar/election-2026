@@ -1,0 +1,47 @@
+{
+  "attempts": [
+    {
+      "id": 1,
+      "reason": "Publication Python 3.10 verifier encountered a historical checker requiring hashlib.file_digest (3.11+). No historical code changed; the new publication reader now verifies manifest/registry bytes directly.",
+      "status": "STOPPED_BEFORE_EXPORT"
+    },
+    {
+      "id": 2,
+      "reason": "Unnecessary serialization of all regional/extraneous fields in exact records was too costly. Interrupted data-only reader; added structural projection while copying exact aggregate tags unchanged.",
+      "status": "STOPPED_BEFORE_EXPORT"
+    },
+    {
+      "id": 3,
+      "reason": "Avoid repeated checking of 17550 unconsumed archive entries during serialization. New reader verifies all pinned manifests and every consumed dependency; full protected before/after inventory independently checks historical immutability.",
+      "status": "STOPPED_BEFORE_EXPORT"
+    },
+    {
+      "id": 4,
+      "reason": "Repeated hashing of identical large provenance files inside the serialization loop. Added process-local SHA cache invalidated by path/device/inode/size/mtime/ctime changes; no persistent or mtime-only trust across checks.",
+      "status": "STOPPED_BEFORE_EXPORT"
+    },
+    {
+      "id": 5,
+      "reason": "Initial naive inline exact representation was918569813bytes. No frozen input changed; exact aggregate strings are now lazy and storage-interned, and unneeded pipeline decomposition arrays stay in original provenance rather than being copied into the client API.",
+      "status": "UNSEALED_ENGINEERING_GENERATION"
+    },
+    {
+      "id": 6,
+      "reason": "Restarted before sealing so every exported resource consistently uses the documented final compact exact encoding.",
+      "status": "STOPPED_BEFORE_FINAL_EXPORT"
+    },
+    {
+      "id": 7,
+      "reason": "Self-review removed an irrelevant native-scope label from CARD_ONLY catalog entries and strengthened live generator-code hash validation. State values and scientific inputs unchanged; final deterministic regeneration/check restarts on the corrected publication metadata.",
+      "status": "PRE_SEAL_CHECK_RESTARTED"
+    },
+    {
+      "id": 8,
+      "reason": "Copied frozen region labels and fixed coordinate definitions, and limited public selector keys to frozen scientific axes. Coupled sigma/domain facts and fixed K/scaling are metadata, not public controls. No scientific values changed.",
+      "status": "PRE_SEAL_METADATA_COMPLETION"
+    }
+  ],
+  "fits": 0,
+  "model_calls": 0,
+  "scientific_source_changes": 0
+}

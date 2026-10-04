@@ -1,0 +1,64 @@
+{
+  "decisions": [
+    {
+      "alternatives": "Different directory or UI implementation is outside the requested scope.",
+      "decision": "Export one static publication API at publication/sites/v1",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_1",
+      "origin": "user requirement",
+      "quantitative_impact": "2064 public calculation states:1620+444;2 card-only entries;1 internal excluded.",
+      "rationale": "No established public static directory conflicts with the requested path. Existing research publication packages are inputs, not another client API.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    },
+    {
+      "alternatives": "Do not fabricate separate A/B calculation rows.",
+      "decision": "Keep A/B aliases of C and all full/native scoped outputs",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_2",
+      "origin": "source constraint",
+      "quantitative_impact": "No duplicated scientific state;two scoped outputs do not multiply the inventory.",
+      "rationale": "Canonical publication contract explicitly provides1600 joint cells and20D cells. A/B are slices, not additional calculations.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    },
+    {
+      "alternatives": "Inline every large rational would greatly inflate initial downloads; dropping precision is forbidden.",
+      "decision": "Use reversible publication aliases and lazy gzip sidecars with a lossless integer-string pool",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_3",
+      "origin": "researcher/Codex choice",
+      "quantitative_impact": "One-to-one mapping2064 states;1620 lazy exact resources;no changed values.",
+      "rationale": "Large rational aggregate strings must be preserved without requiring every client to load every exact vector. Storage-only deduplication uses zero-based references to verbatim integer strings. Counts, shares, delta and scoped focal accounting remain exact; composition/intensity/interaction pipeline detail is intentionally kept at its frozen provenance source.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    },
+    {
+      "alternatives": "A common truth range or normalization would change scientific meaning.",
+      "decision": "Carry family-specific result semantics and native coverage",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_4",
+      "origin": "source constraint",
+      "quantitative_impact": "No complete-case intersection;0new exclusions;444 public additional states.",
+      "rationale": "Stored outputs have unlike estimands; Cedar71438eligible vs87736primary. InternalLS and CARD_ONLY cannot become public calculations.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    },
+    {
+      "alternatives": "A Cartesian client or silent fallback is prohibited.",
+      "decision": "Expose only existing state combinations, keep final prose pending",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_5",
+      "origin": "user requirement",
+      "quantitative_impact": "Six executable and two card-only catalog entries;no addedmodel/control.",
+      "rationale": "Explicit availability prevents fabricated source/geography/control interactions. Reader labels omit branch chronology; technical provenance retains original bindings.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    },
+    {
+      "alternatives": "A new frontend framework or regenerated model payload is unnecessary.",
+      "decision": "Validate deterministic serialization against pinned stored artifacts",
+      "downstream_consequences": "Client reads typed stored states only; no runtime fitting or unstored control combinations.",
+      "id": "SITES_PUBLICATION_6",
+      "origin": "researcher/Codex choice",
+      "quantitative_impact": "No dependency install;0model imports/calls/fits;second-generation byte equality required.",
+      "rationale": "Repository-native stdlib reader uses existing system jsonschema4.17.3 for Draft2020-12 validation; scientific environments unchanged.",
+      "reversibility": "Publication aliases/serialization may be explicitly versioned; frozen scientific artifacts must stay immutable."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "files": {
+    "src/analysis/research_handoff.py": "f8158387540ed690c55a30a35ac4d9bae8fff0c5c38d131fadecbea9420f8b14",
+    "src/publication_sites/__init__.py": "ccabed17be678d96ab10900a4c51fb341f1c8dbe38139348b0e3d7d60012e806",
+    "src/publication_sites/__main__.py": "01298a225ba586411645fd3b7671ea45275f7237e92e42d9f1e0519c912460f7",
+    "src/publication_sites/check.py": "ad8f945835af67de43ea046168970d980069836ecff5bbc03fd6afba72a500ab",
+    "src/publication_sites/data.py": "096969e7510c663e5f64bbf54744d650c8535c3dc82e83d6f4f25abab3fd0711",
+    "src/publication_sites/generate.py": "144d7976ea47002b1ce5ba7779d5190f8b139c3828238cb24d5b764b13962cd5"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "article_or_site_implementation_changes": 0,
+  "final_public_inventory_matches_both_generations": true,
+  "general_checker_exit_status": 0,
+  "history_check": {
+    "publications": 53,
+    "stage_outcomes": {
+      "ABC_REAL_AUDIT_BLOCKED_PRECONDITION": "ABC_REAL_AUDIT_BLOCKED_PRECONDITION",
+      "SCENARIO_MODEL_ZOO_V1_FROZEN_CONTRACT_ONLY": "FROZEN_CONTRACT_ONLY",
+      "SMZ_ABC_REAL_DESIGN_SUPPORT_AUDIT_ATTEMPT02_COMPLETE": "PASS",
+      "SMZ_ARCHITECTURE_B_ENGINEERING_QUALIFICATION_COMPLETE": "ARCH_B_BLOCKED_RESOURCE",
+      "SMZ_ARCH_B_RESOURCE_POLICY_V2_REQUALIFIED": "ARCH_B_IMPLEMENTATION_QUALIFIED_UNDER_RESOURCE_POLICY_V2",
+      "SMZ_ARTICLE_V3_FACTUAL_PROVENANCE_AUDIT_COMPLETE": "ARTICLE_FACTUAL_PROVENANCE_AUDIT_COMPLETE_WITH_UNESTABLISHED_FACTS",
+      "SMZ_COMMON_PRE_RELEASE_REVIEW_BLOCKED_ENGINEERING": "PRE_RELEASE_REVIEW_BLOCKED_ENGINEERING",
+      "SMZ_COMMON_PRE_RELEASE_REVIEW_V2_BLOCKED_RESOURCE_FEASIBILITY": "PRE_RELEASE_REVIEW_BLOCKED_RESOURCE_FEASIBILITY",
+      "SMZ_COMMON_PRE_RELEASE_REVIEW_V3_BLOCKED_ENGINEERING": "PRE_RELEASE_REVIEW_V3_BLOCKED_ENGINEERING",
+      "SMZ_D_REAL_STRUCTURAL_AUDIT_COMPLETE": "PASS",
+      "SMZ_FOCUSED_READINESS_BLOCKED_RUN_KEY_BOOTSTRAP": "FOCUSED_READINESS_BLOCKED_ENGINEERING",
+      "SMZ_FOCUSED_READINESS_CLOSED_AUTHORIZED": "PRE_RELEASE_REVIEW_PASS",
+      "SMZ_FOCUSED_READINESS_WAITING_USER_CUSTODY_ACTION": "FOCUSED_READINESS_WAITING_USER_CUSTODY_ACTION",
+      "SMZ_GOVERNANCE_SNAPSHOT_REPAIR_COMPLETE": "SNAPSHOT_REPAIR_AND_PREFLIGHT_PASS",
+      "SMZ_IMMUTABLE_STAGE_CHAIN_REGISTRATION_REPAIR_COMPLETE": "GOVERNANCE_STAGE_REGISTRATION_REPAIR_PASS",
+      "SMZ_REAL_PARTY_ADAPTER_MOCK_QUALIFIED": "PASS_MOCK_QUALIFIED",
+      "SMZ_REAL_RUN01_COMMITTED_WAITING_OFFHOST_RECOVERY": "REAL_SEALED_RUN_COMMITTED_WAITING_OFFHOST_RECOVERY",
+      "SMZ_REAL_RUN01_FAILED_PREFLIGHT_PRECOMMIT": "REAL_SEALED_RUN_FAILED_PRECOMMIT",
+      "SMZ_REAL_RUN01_REVEALED_CANONICAL_RESULTS_READY": "RUN01_REVEALED_CANONICAL_RESULTS_READY",
+      "SMZ_RESOURCE_POLICY_V2_ADOPTED": "RESOURCE_POLICY_V2_ADOPTED",
+      "SMZ_RUN01_CANONICAL_PUBLICATION_PACKAGE_READY": "CANONICAL_PUBLICATION_PACKAGE_READY",
+      "SMZ_RUN01_POST_RESULTS_INTERPRETATION_COMPLETE": "POST_RESULTS_INTERPRETATION_COMPLETE",
+      "SMZ_RUN01_PREFLIGHT_REPAIRED_REAUTHORIZED": "PRE_RELEASE_REVIEW_PASS",
+      "SMZ_SEALED_COORDINATOR_ATTEMPT02_MOCK_QUALIFIED": "PASS_MOCK_QUALIFIED",
+      "SMZ_SEALED_COORDINATOR_BLOCKED_PRECONDITION": "SEALED_COORDINATOR_BLOCKED_PRECONDITION",
+      "SMZ_SITES_PUBLICATION_DATA_V1_READY": "PASS",
+      "SMZ_TECHNICAL_ARTICLE_DRAFT_READY": "TECHNICAL_ARTICLE_DRAFT_READY",
+      "SMZ_TECHNICAL_ARTICLE_V2_READY_FOR_USER_REVIEW": "TECHNICAL_ARTICLE_V2_READY_FOR_USER_REVIEW",
+      "SMZ_V1_SYNTHETIC_QUALIFICATION_COMPLETE": "SYNTHETIC_ACCOUNTING_QUALIFICATION_PASS",
+      "SMZ_V2_EXTERNAL_BRANCH_CLOSED": "CLOSED",
+      "SMZ_V2_EXTERNAL_C_LITE_PLUS_PRE_REVEAL_GATE": "A_B_CONDITIONAL_USER_CHOICE_REQUIRED",
+      "SMZ_V2_EXTERNAL_C_LITE_SELECTED": "C_LITE_SELECTED_E2_TARGET_EXCEPTION_NOT_FROZEN",
+      "SMZ_V2_EXTERNAL_FREEZE_PARTIAL_BLOCKED": "PARTIAL_CONTRACTS_I_CEDAR_READY_GAUSSIAN_DOMAINS_BLOCKED",
+      "SMZ_V2_EXTERNAL_FREEZE_U1_U2_CLOSED": "U1_U2_CLOSED_DECISIONS_ONLY",
+      "SMZ_V2_EXTERNAL_JOINT_POST_COMMIT_REVIEW": "READY_FOR_JOINT_REVEAL",
+      "SMZ_V2_EXTERNAL_JOINT_REVEALED": "COMPLETE",
+      "SMZ_V2_EXTERNAL_JOINT_REVEAL_AUTHORIZED": "UNCONSUMED",
+      "SMZ_V2_EXTERNAL_PLUS_A_COMMITTED_NOT_REVEALED": "COMMITTED_NOT_REVEALED",
+      "SMZ_V2_EXTERNAL_PLUS_A_FROZEN": "PASS",
+      "SMZ_V2_EXTERNAL_PLUS_A_PRE_REAL_AUTHORIZED": "AUTHORIZED_UNCONSUMED",
+      "SMZ_V2_EXTERNAL_PLUS_A_QUALIFICATION_FAILED": "FAIL",
+      "SMZ_V2_EXTERNAL_PLUS_A_QUALIFICATION_V2_PASSED": "PASS",
+      "SMZ_V2_EXTERNAL_PRE_REAL_AUTHORIZED": "EXTERNAL_C_LITE_PRE_REAL_AUTHORIZATION_PASS",
+      "SMZ_V2_EXTERNAL_REAL_RUN01_ABORTED_AFTER_CONSUMPTION": "ABORTED_AFTER_AUTHORIZATION_CONSUMPTION",
+      "SMZ_V2_EXTERNAL_RUN02_COMMITTED_NOT_REVEALED": "COMMITTED_NOT_REVEALED",
+      "SMZ_V2_EXTERNAL_RUN02_PRE_REAL_AUTHORIZED": "RUN02_PRE_REAL_REAUTHORIZATION_PASS",
+      "SMZ_V2_EXTERNAL_RUN02_RESOURCE_SUCCESSOR_AUTHORIZED": "RUN02_RESOURCE_SUCCESSOR_AUTHORIZATION_PASS",
+      "SMZ_V2_EXTERNAL_SERIALIZATION_REPAIR_MOCK_QUALIFIED": "SERIALIZATION_REPAIR_MOCK_QUALIFICATION_PASS",
+      "SMZ_V2_EXTERNAL_SERIALIZATION_REPAIR_VALIDATION_ANNOTATED": "VALIDATION_PLATFORM_ANNOTATION_NO_SCIENTIFIC_CHANGE",
+      "SMZ_V2_EXTERNAL_SUCCESSOR_SYNTHETIC_QUALIFIED": "EXTERNAL_SUCCESSOR_FREEZE_SYNTHETIC_QUALIFICATION_PASS",
+      "SMZ_V2_G_DESIGN_NO_GO": "G_DESIGN_NO_GO_COMBINED_GUARANTEES",
+      "SMZ_V2_METHODOLOGICAL_GATE_COMPLETE_NOT_FROZEN": "METHODOLOGICAL_GATE_COMPLETE_WITH_V2_FREEZE_BLOCKERS",
+      "SMZ_V3_ENGINEERING_BLOCKERS_CLOSED": "V3_ENGINEERING_BLOCKERS_CLOSED"
+    },
+    "status": "PASS"
+  },
+  "live_handoff_state_match_registered_append_only_stage": true,
+  "publication_check": {
+    "additional_public_states": 444,
+    "card_only_methods": 2,
+    "checks": [
+      {
+        "check": "authority_manifests_and_all_consumed_dependencies",
+        "status": "PASS"
+      },
+      {
+        "check": "manifest_schema",
+        "status": "PASS"
+      },
+      {
+        "check": "complete_public_file_inventory_hash_and_size",
+        "status": "PASS"
+      },
+      {
+        "check": "method_schema",
+        "status": "PASS"
+      },
+      {
+        "check": "source_baseline_design_schemas",
+        "status": "PASS"
+      },
+      {
+        "check": "only_frozen_public_axes_no_optimizer_K_scaling_or_accounting_selectors",
+        "status": "PASS"
+      },
+      {
+        "check": "all_state_schemas_exact_types_finite_values_and_D_missingness",
+        "status": "PASS"
+      },
+      {
+        "check": "1620_published_scenario_cells_444_additional_public_states_zero_duplicates",
+        "status": "PASS"
+      },
+      {
+        "check": "zero_internal_state_in_all_public_files_including_exact_downloads",
+        "status": "PASS"
+      },
+      {
+        "check": "OFAT_availability_15_windows_71_anchors_and_own_frame_support",
+        "status": "PASS"
+      },
+      {
+        "check": "2D_threshold_fit_reuse_and_exact_centers",
+        "status": "PASS"
+      },
+      {
+        "check": "all_exact_sidecars_and_states_identical_to_authoritative_projection",
+        "status": "PASS"
+      },
+      {
+        "check": "documented_client_workflow_and_no_cartesian_inference",
+        "status": "PASS"
+      },
+      {
+        "check": "negative_schema_regressions_wrong_estimands_and_card_execution",
+        "status": "PASS"
+      },
+      {
+        "check": "protected_science_reveal_committed_article_and_provenance_bytes_unchanged",
+        "status": "PASS"
+      },
+      {
+        "check": "no_scientific_kernel_provider_or_optimizer_loaded",
+        "status": "PASS"
+      }
+    ],
+    "files": 1640,
+    "internal_exported": 0,
+    "manifest_sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+    "new_fits": 0,
+    "new_model_calls": 0,
+    "new_scientific_states": 0,
+    "protected_files": 18340,
+    "public_states": 2064,
+    "publication_inventory_sha256": "64565aa34eed51dd1dd7c18e9d2a900f7868cfbf19fbb5faeb28e559bdf46b62",
+    "real_source_rows_passed_to_kernels": 0,
+    "scenario_public_states": 1620,
+    "status": "PASS",
+    "validator_environment": {
+      "jsonschema": "4.17.3",
+      "python": "3.10.12"
+    }
+  },
+  "scientific_changes": 0,
+  "sealed_evidence_unchanged": true,
+  "status": "PASS"
+}
