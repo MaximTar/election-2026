@@ -1,6 +1,6 @@
 # Presentation chart data — 20261005_v1
 
-Status: LOCAL_VALIDATION_PASS; public deployment/HTTP verification pending.
+Status: COMPLETE — local validation, deterministic regeneration, Pages deployment and HTTP/MIME/CORS PASS.
 
 ## Extracted frozen values
 Six chart files derive from existing PUBLIC default states and public window/anchor states. Coefficients, 1D Gaussian parameters and 2D means/covariances/weights were extracted from immutable hash-bound packets. Exact rational/binary64 representations are preserved separately from rendering numbers.
@@ -30,7 +30,7 @@ User requirement: additive deterministic chart data only; no scientific changes 
 All charts inherit method-specific estimands, native coverage and non-CI/non-honesty guards. Context geometry is descriptive, not historical KSP replication or fraud classification. No unlike outputs are averaged.
 
 ## Handoff
-Stage completed: additive static chart presentation data; public delivery pending.
+Stage completed: additive static chart presentation data, deployed and verified.
 Primary universe: unchanged paper_primary__evidence_20260927.
 Input rows: 87,736 selected frozen primary rows (presentation aggregation only); inherited PUBLIC states/parameters.
 Output/analysed rows: aggregated sparse cells and 100-bin/curve tables; no raw UIK publication.
@@ -40,3 +40,11 @@ New methodological choices: 0.
 Important unresolved issues: no scientific blocker; per-cell membership unavailable, public full reproducibility/licensing pending.
 Reviewer attention: bin endpoint policy, distinct cast/issued coordinates, exact frozen coefficients, common normalization, absent membership is not zero.
 Safe to proceed: only after deployment/HTTP/CORS PASS, give the presentation manifest to Sites for a separately authorized second UI pass.
+
+## Verified public delivery
+
+Data deployment commit: 9158bd5fa3d1d2120fa75147d4b4063aec712556.
+Pages Actions run: https://github.com/MaximTar/election-2026/actions/runs/37292788570 — success.
+Presentation manifest: https://maximtar.github.io/election-2026/presentation/20261005_v1/manifest.json
+All 7 presentation JSON URLs and both existing API manifests: HTTP 200, application/json, Access-Control-Allow-Origin: *, byte hashes matched. Tag publication-v1 remains unchanged.
+Bounded report/HTTP evidence follow-up commit contains no scientific/publication-data change.

@@ -1,5 +1,123 @@
 {
-  "status": "PENDING_DEPLOYMENT",
   "base_url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/",
-  "requests": []
+  "requests": [
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 25789,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/manifest.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 27261,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "fc5170a6426b8c5a17f46ba926f6b502e3fd44f4567698ead4fbf5dedbf73344",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "fc5170a6426b8c5a17f46ba926f6b502e3fd44f4567698ead4fbf5dedbf73344",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/cedar_anchor_sensitivity.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 31099,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "a15ad4b2ae15eb6c8301f4fdd5c8b7ed2ec177b43233479869c4a028b81c91af",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "a15ad4b2ae15eb6c8301f4fdd5c8b7ed2ec177b43233479869c4a028b81c91af",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/cedar_default_curve.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 356959,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "5799f3e2f2a90ec617b27fbb51a6b59af769b2643485761907e687cc1400c7bf",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "5799f3e2f2a90ec617b27fbb51a6b59af769b2643485761907e687cc1400c7bf",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/context_turnout_result_density.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 62164,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "8116c72d7b9aa17ac6c9722719b603a26bc9d5469d981ac36c051b0919bd4ab6",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "8116c72d7b9aa17ac6c9722719b603a26bc9d5469d981ac36c051b0919bd4ab6",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/istories_reference_curve.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 59229,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "3023da67754e0c4be33d8c9226864e1cc5b24bc3d6f927d083b58cec63586c41",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "3023da67754e0c4be33d8c9226864e1cc5b24bc3d6f927d083b58cec63586c41",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/novaya_1d_default_fit.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 360098,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "68686ffd4df13637f13d77ad63869376a9088ff35c18c8811394f7745f8af164",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "68686ffd4df13637f13d77ad63869376a9088ff35c18c8811394f7745f8af164",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/novaya_2d_default_density.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 268237,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/manifest.json"
+    },
+    {
+      "access_control_allow_origin": "*",
+      "bytes": 33681,
+      "content_type": "application/json; charset=utf-8",
+      "cors_pass": true,
+      "deployed_sha256": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c",
+      "hash_match": true,
+      "http_status": 200,
+      "json_mime_pass": true,
+      "local_sha256": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c",
+      "origin_sent": "https://example.com",
+      "url": "https://maximtar.github.io/election-2026/runtime/manifest.json"
+    }
+  ],
+  "status": "PASS"
 }
