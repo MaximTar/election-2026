@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - 'publication/sites/v1/**'
+      - 'publication/sites/presentation/20261005_v1/**'
+      - 'src/publication_sites/presentation_check.py'
+      - 'src/publication_sites/presentation_generate.py'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -56,10 +59,24 @@ jobs:
           PY
       - name: Configure Pages
         uses: actions/configure-pages@v5
-      - name: Upload publication directory only
+      - name: Validate presentation static bytes
+        run: python3 -m src.publication_sites.presentation_check
+      - name: Stage unchanged API plus versioned presentation data
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os, shutil
+          from pathlib import Path
+          stage = Path(os.environ['RUNNER_TEMP']) / 'election-publication-pages'
+          assert not stage.exists(), 'exclusive staging directory required'
+          shutil.copytree('publication/sites/v1', stage)
+          shutil.copytree('publication/sites/presentation/20261005_v1',
+                          stage / 'presentation' / '20261005_v1')
+          PY
+      - name: Upload staged publication data only
         uses: actions/upload-pages-artifact@v4
         with:
-          path: publication/sites/v1/
+          path: ${{ runner.temp }}/election-publication-pages/
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4

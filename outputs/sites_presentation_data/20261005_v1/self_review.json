@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "INTERNAL_or_CARD_ONLY_chart": false,
+    "accepted_canonical_files_changed": 0,
+    "article_or_UI_changed": false,
+    "changed_frozen_values": 0,
+    "collateral_exclusions": 0,
+    "dependency_changes": false,
+    "large_count_changes": false,
+    "missing_2D_membership_handling": "UNAVAILABLE_NOT_ZERO",
+    "new_assumptions": 0,
+    "new_exclusions": 0,
+    "new_scientific_parameters": 0,
+    "new_states": 0,
+    "scientific_imports_or_calls": false,
+    "source_frame": "PRIMARY_HASH_PINNED_NO_CURRENT_OFFICIAL_REPLACEMENT",
+    "stored_1D_SSE_reproduced": "TOLERANCE_1e-10",
+    "stored_Cedar_aggregate_reproduced": "EXACT",
+    "universe_changes": 0
+  },
+  "reviewer_attention": [
+    "Sparse grid indexing and endpoints are chart binning only.",
+    "1D total was evaluated, not pre-persisted; stored SSE is independently checked.",
+    "2D per-cell membership intentionally unavailable; no inference rerun.",
+    "Partial public checkout verifies bytes/public centers; full parameter/source verification performed locally.",
+    "No source accuracy ranking, confidence interval, truth scale or fraud claim."
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "publication/sites/presentation/20261005_v1/README.md": {
+    "bytes": 1542,
+    "sha256": "da042e18cc41ee06ade24c988d986920daa5be98d099a75132ef0c6582c338c2"
+  },
+  "publication/sites/presentation/20261005_v1/cedar_anchor_sensitivity.json": {
+    "bytes": 27261,
+    "sha256": "fc5170a6426b8c5a17f46ba926f6b502e3fd44f4567698ead4fbf5dedbf73344"
+  },
+  "publication/sites/presentation/20261005_v1/cedar_default_curve.json": {
+    "bytes": 31099,
+    "sha256": "a15ad4b2ae15eb6c8301f4fdd5c8b7ed2ec177b43233479869c4a028b81c91af"
+  },
+  "publication/sites/presentation/20261005_v1/chart.schema.json": {
+    "bytes": 818,
+    "sha256": "593d96ab3b0e667f7f3efa0dde30f81484b609bde2f609b27734f8843faf1423"
+  },
+  "publication/sites/presentation/20261005_v1/context_turnout_result_density.json": {
+    "bytes": 356959,
+    "sha256": "5799f3e2f2a90ec617b27fbb51a6b59af769b2643485761907e687cc1400c7bf"
+  },
+  "publication/sites/presentation/20261005_v1/istories_reference_curve.json": {
+    "bytes": 62164,
+    "sha256": "8116c72d7b9aa17ac6c9722719b603a26bc9d5469d981ac36c051b0919bd4ab6"
+  },
+  "publication/sites/presentation/20261005_v1/manifest.json": {
+    "bytes": 25789,
+    "sha256": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771"
+  },
+  "publication/sites/presentation/20261005_v1/novaya_1d_default_fit.json": {
+    "bytes": 59229,
+    "sha256": "3023da67754e0c4be33d8c9226864e1cc5b24bc3d6f927d083b58cec63586c41"
+  },
+  "publication/sites/presentation/20261005_v1/novaya_2d_default_density.json": {
+    "bytes": 360098,
+    "sha256": "68686ffd4df13637f13d77ad63869376a9088ff35c18c8811394f7745f8af164"
+  }
+}

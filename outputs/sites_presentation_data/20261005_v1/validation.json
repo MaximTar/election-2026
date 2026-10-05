@@ -1,0 +1,24 @@
+{
+  "charts": 6,
+  "checks": {
+    "1D_curve_component_sum_and_stored_SSE": "PASS",
+    "2D_frozen_centers_and_membership_no_inference": "PASS",
+    "Cedar_exact_rational_reproduction_and_unchanged_support": "PASS",
+    "accepted_canonical_and_runtime_closure": "PASS",
+    "frozen_runs_reveal_article_publication_unchanged": "PASS",
+    "iStories_stored_coefficients_residuals_and_15_windows": "PASS",
+    "json_schema_public_scope_finite_arrays": "PASS",
+    "local_authoritative_parameter_bindings": "PASS",
+    "manifest_file_hash_closure": "PASS",
+    "sparse_density_grid_uniqueness_and_totals": "PASS",
+    "stdlib_only_reader_no_scientific_imports": "PASS"
+  },
+  "fits": 0,
+  "model_calls": 0,
+  "optimizer_calls": 0,
+  "raw_bytes": 924959,
+  "real_source_rows_passed_through_kernels": 0,
+  "scientific_model_runs": 0,
+  "scientific_states_added": 0,
+  "status": "PASS"
+}
