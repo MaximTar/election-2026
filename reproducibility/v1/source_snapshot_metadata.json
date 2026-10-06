@@ -1,0 +1,59 @@
+{
+  "artifacts": [
+    {
+      "completed_at_utc": "2026-09-23T11:02:17.531971+00:00",
+      "file": "index.html",
+      "sha256": "5cd60812bedd162a2c605e806cef0ae0caa86d9e5075fe2d717fa3e87e1c9f44",
+      "size_bytes": 90740,
+      "started_at_utc": "2026-09-23T11:02:17.089681+00:00",
+      "url": "https://deg.zhizhin.xyz/index.html"
+    },
+    {
+      "completed_at_utc": "2026-09-23T11:02:17.750751+00:00",
+      "file": "about.html",
+      "sha256": "30212f324ecf77203436dc26835c113b270391c98d5a71bdd8fc43ed665821cd",
+      "size_bytes": 11712,
+      "started_at_utc": "2026-09-23T11:02:17.545906+00:00",
+      "url": "https://deg.zhizhin.xyz/about.html"
+    },
+    {
+      "completed_at_utc": "2026-09-23T11:02:17.925794+00:00",
+      "file": "shpilkin.html",
+      "sha256": "fd145180bfb459721d4c4df758b6ff56cf7a944b49ef0b115118670cf14980ca",
+      "size_bytes": 45356,
+      "started_at_utc": "2026-09-23T11:02:17.763205+00:00",
+      "url": "https://deg.zhizhin.xyz/shpilkin.html"
+    },
+    {
+      "completed_at_utc": "2026-09-23T11:02:18.751658+00:00",
+      "file": "uik_federal_parties.csv.gz",
+      "sha256": "84508196e31aed64a7711093b711cfc804ac47c38cfc6dd6d62d9a51ff7aec0f",
+      "size_bytes": 4987002,
+      "started_at_utc": "2026-09-23T11:02:17.954622+00:00",
+      "url": "https://deg.zhizhin.xyz/uik_federal_parties.csv.gz"
+    },
+    {
+      "completed_at_utc": "2026-09-23T11:02:19.816945+00:00",
+      "file": "uik_protocols.csv.gz",
+      "sha256": "f596127c85428225c9b4c58ca9c6521c3e1cc958881fa4102c52a12263fb43cc",
+      "size_bytes": 9059038,
+      "started_at_utc": "2026-09-23T11:02:18.788774+00:00",
+      "url": "https://deg.zhizhin.xyz/uik_protocols.csv.gz"
+    },
+    {
+      "completed_at_utc": "2026-09-23T11:02:20.120435+00:00",
+      "file": "shpilkin.json",
+      "sha256": "fe4f6dfb615484690b554326dcbc7779ead5a025ec892f307bfcc6e80b9e451b",
+      "size_bytes": 466340,
+      "started_at_utc": "2026-09-23T11:02:19.874720+00:00",
+      "url": "https://deg.zhizhin.xyz/shpilkin.json"
+    }
+  ],
+  "atomic_remote_snapshot": false,
+  "derivation": "NON_MODEL provenance projection; excludes local IP/ports and transport timing/log fields; original file is unchanged and not included in release",
+  "note": "URLs are mutable; artifacts may belong to different site builds. Hashes identify exactly the downloaded bytes; HTTP dates are not election dates.",
+  "original_project_path": "data/raw/20260923T110217085076Z/manifest.json",
+  "original_sha256": "f4d1f29319922ba86ade24d71ba3fd8a2f05e809be29528eb77a93761cf16390",
+  "snapshot_id": "20260923T110217085076Z",
+  "source_base_url": "https://deg.zhizhin.xyz/"
+}

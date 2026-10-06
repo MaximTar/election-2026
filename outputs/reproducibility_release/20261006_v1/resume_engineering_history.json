@@ -1,0 +1,14 @@
+{
+  "attempts": [
+    {
+      "issue": "Local /tmp inventory helper initially lacked repository PYTHONPATH",
+      "resolution": "Explicit PYTHONPATH=. for the packaging-only helper; no scientific execution"
+    },
+    {
+      "issue": "Conservative packaging/checker refused one existing frozen metadata symlink",
+      "path": "outputs/smz_v2_external_pre_real_authorization/20261002_run02_v2/implementation_bindings.json",
+      "resolution": "Hash-identical known predecessor alias declared; safe regular-file archive projection at both original paths; original symlink untouched",
+      "target": "outputs/smz_v2_external_pre_real_authorization/20261002_v1/implementation_bindings.json"
+    }
+  ]
+}

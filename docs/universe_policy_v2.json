@@ -1,0 +1,22 @@
+{
+  "policy_id": "universe_revision_v2",
+  "stage": "Universe revision after stage 1.5; no anomaly analysis",
+  "base_snapshot": "20260923T110217085076Z",
+  "evidence_snapshot": "validation_20260923T112207Z",
+  "canonical_priority": ["main snapshot counts for existing UUID", "supplemental_neshodilina only for UUID absent from main"],
+  "canonical_priority_rationale": "Preserve the accepted immutable snapshot and its versions. This is a reproducibility/source-priority convention, not evidence that main is more accurate; never select by electoral results.",
+  "primary_coverage_percent": "99",
+  "coverage_sensitivity_percent": ["95", "99", "99.9", "100"],
+  "coverage_basis": "neshodilina UUID registry; observed paper UUID intersection before integrity exclusions, including zero-count records",
+  "systematic_loss_exclusions": {},
+  "systematic_loss_review": "No additional regional exclusion on this ground established from available evidence. This is not proof of representativeness or random missingness. LEN catastrophic gap is excluded by coverage; Bashkortostan lacks alternative evidence for some observed rows, not their canonical protocols. Primorye registry completeness remains disputed.",
+  "observed_core": {"frame": "all observed paper including separately flagged foreign", "all": ["resolved_region known", "voters > 0", "0 <= issued <= voters", "0 < valid <= issued", "party counts nonnegative", "complete party sum == valid", "if resolved_invalid known: valid + resolved_invalid <= issued"]},
+  "primary": {"from": "paper_observed_core", "all": ["in domestic/base frame", "registry coverage >= 99%", "no documented systematic-loss exclusion"]},
+  "complete_regions": {"from": "paper_observed_core", "all": ["missing_uiks == 0"], "note": "No whole-region source-integrity gate; no additional domestic restriction in this requested definition."},
+  "all_observed": {"all": ["paper", "numeric voters, issued, valid and all party counts available"], "note": "Includes zero denominator rows because absolute counts remain measurable; rates/shares are NULL where denominators are nonpositive. Includes foreign as flagged diagnostic rows, never implicit national aggregate."},
+  "foreign": {"from": "paper_all_observed", "all": ["explicit source registry region == Иностранные участки"]},
+  "alternative_versions": {"from": "paper_primary with identical UUID membership", "replacement": "entire alternative counts vector for unresolved conflicts only when both versions pass observed-core checks", "otherwise": "retain canonical with unresolved replacement flag; never average versions"},
+  "legacy_name": "paper_strict_complete_regions_legacy",
+  "legacy_alias": "paper_analysis_eligible_v1",
+  "selection_forbidden": ["turnout level", "party share level", "fingerprint position", "tail/mode", "anomaly score"]
+}

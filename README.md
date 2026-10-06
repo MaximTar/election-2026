@@ -1,29 +1,39 @@
 # election-2026
 
-This repository currently publishes the static data layer of one election research
-project. Calculation states are precomputed and frozen; clients select stored states
-and do not execute scientific models.
+One research project with frozen, precomputed conditional calculation outputs.
+Different method outputs have different meanings and are not estimates that can be
+averaged into one election result.
 
-- `publication/sites/v1/` is the canonical static publication contract.
-- `publication/sites/v1/runtime/` is the lightweight delivery layer for a future
-  reader-facing website / Scenario Explorer.
-- Start with `publication/sites/v1/runtime/CONTRACT.md` and its `manifest.json`.
-- `src/publication_sites/` contains publication generators and validators;
-  accepted engineering evidence is under `outputs/sites_publication_*`.
-- GitHub Pages deploys only the contents of `publication/sites/v1/`, with that
-  directory as the site root. CI checks integrity and deploys stored bytes only.
+- [Public static data endpoint](https://maximtar.github.io/election-2026/).
+- Canonical publication contract: `publication/sites/v1/`.
+- Lightweight client delivery: `publication/sites/v1/runtime/`.
+- [Chart presentation data](https://maximtar.github.io/election-2026/presentation/20261005_v1/manifest.json).
+- [Reproducibility materials v1](reproducibility/v1/REPRODUCE.md).
+- [Fast frozen-result verification](reproducibility/v1/VERIFY.md).
+- [GitHub Release and large frozen assets](https://github.com/MaximTar/election-2026/releases/tag/reproducibility-v1).
+- [External-input identifiers and hashes](reproducibility/v1/EXTERNAL_INPUTS.md).
 
-This first public commit exposes the static publication/API layer, not yet the
-complete research reproducibility repository. Technical provenance can reference
-local artifacts that are not included in this commit. Full scientific regeneration
-requires those additional frozen inputs; their absence must not be replaced with
-new calculations or inferred values.
+Scientific code and compact release documentation are in the repository. Larger
+project-derived inputs, exact frozen results and provenance are supplied as Release
+assets. Source-origin raw snapshots, including Zhizhin snapshots, are intentionally
+not redistributed. Exact independent scientific recomputation requires obtaining
+inputs whose SHA256 matches the recorded historical snapshot. A different current
+source response is not an interchangeable input.
 
-No article or public user interface is included. The reader-facing site will consume
-this static data later. Different result types remain distinct; clients must honor
-coverage, availability and interpretation guards.
+Verification of frozen results works without these external raw snapshots. The
+release covers 1,620 A/B/C/D cells and 445 external-method research states, with
+2,064 PUBLIC states in the static API and no INTERNAL state exported. Two CARD_ONLY
+methods have descriptions/provenance and no project execution. The anomaly-aware
+branch has bounded requirements/mathematical NO-GO evidence, not model fits.
 
-Version `v1` is immutable. Its deployment fails if either accepted manifest changes.
-Future publication changes require a new version directory.
+Start client integration with `publication/sites/v1/runtime/CONTRACT.md`. The
+reader-facing website/Scenario Explorer consumes these static files. Its UI and
+article drafts are not part of this repository release. CI deploys accepted data
+bytes only and does not run or regenerate scientific calculations.
 
-No license is selected in this initial publication; licensing remains unresolved.
+`publication-v1` and the accepted v1 manifests remain immutable. Scientific reruns
+must use separate output directories and must not overwrite frozen results. See
+release documentation for environment capture and historical-pipeline limitations.
+
+No project-wide reuse license has yet been selected. External data retain their
+own source/rights status.

@@ -1,0 +1,47 @@
+{
+  "byte_identical": true,
+  "first": {
+    "assets": [
+      {
+        "bytes": 96638999,
+        "file_count": 12,
+        "name": "reproducibility-v1-derived-inputs.tar.gz",
+        "sha256": "fc7940f5760f39aa04a205ce363be954c92c749e1e7e04c6ee08beb2fa40520e"
+      },
+      {
+        "bytes": 1709368659,
+        "file_count": 2212,
+        "name": "reproducibility-v1-results.tar.gz",
+        "sha256": "5693973b9b47b69f9b597ae2cf2fcb5ba8a65111f5b7d37a9f94c3902cd39830"
+      }
+    ]
+  },
+  "normalization": {
+    "compression_level": 6,
+    "gid": 0,
+    "gzip_filename": "",
+    "gzip_mtime": 0,
+    "mode": "0644",
+    "mtime": 0,
+    "ordering": "lexicographic original relative paths",
+    "symlink_members": 0,
+    "uid": 0
+  },
+  "second": {
+    "assets": [
+      {
+        "bytes": 96638999,
+        "file_count": 12,
+        "name": "reproducibility-v1-derived-inputs.tar.gz",
+        "sha256": "fc7940f5760f39aa04a205ce363be954c92c749e1e7e04c6ee08beb2fa40520e"
+      },
+      {
+        "bytes": 1709368659,
+        "file_count": 2212,
+        "name": "reproducibility-v1-results.tar.gz",
+        "sha256": "5693973b9b47b69f9b597ae2cf2fcb5ba8a65111f5b7d37a9f94c3902cd39830"
+      }
+    ]
+  },
+  "status": "PASS"
+}

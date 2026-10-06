@@ -1,0 +1,9 @@
+# Environment
+
+The authoritative external qualification record is `outputs/smz_v2_external_qualification/20261002_v1/environment.json` (available in the results asset). It records Python 3.14.0, NumPy 2.4.2, SciPy 1.18.1, scikit-learn 1.7.2, joblib 1.5.3 and threadpoolctl 3.6.0. Execution used WSL2/Linux x86_64, glibc 2.35, single-thread assumptions and OpenBLAS 0.3.31.dev. Original distribution RECORD hashes and temporary environment locations are evidence of the historical environment, not portable install locations.
+
+Set `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1` before a scientific rerun. The independent reproduction harness rejects different Python/dependency versions. Matching version numbers does not guarantee identical BLAS binaries or exact floating-point outcomes. Compare stored numeric diagnostics/results after any independent rerun. No retrospective lockfile or byte-identical floating-point guarantee is asserted.
+
+A/B/C/D use integer/Fraction arithmetic. The unchanged historical storage import requires `cryptography`; it is not part of the numerical estimand. Universe construction code additionally uses pandas (the existing requirements file records pandas 3.0.1). Existing `requirements.txt` and `requirements-descriptive.txt` are included as historical project material, not a complete lock for every branch. Do not silently upgrade scientific dependencies to make a rerun succeed.
+
+Frozen-result verification uses Python >=3.10 and `jsonschema` (no numerical packages required). The documented `/usr/bin/python3` verification path was checked on Python 3.10.12. Scientific reruns require the compatible historical environment above. Exact gzip bytes may depend on Python/zlib versions; verification checks frozen byte hashes and exact decoded result representations separately.
