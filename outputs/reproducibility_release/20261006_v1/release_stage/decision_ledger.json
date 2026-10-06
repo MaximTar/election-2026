@@ -1,0 +1,120 @@
+{
+  "decisions": [
+    {
+      "alternatives": [
+        "Keep the original blocked full-archive scope",
+        "Mirror raw inputs, not authorized"
+      ],
+      "category": "user requirement",
+      "downstream_consequences": "Workflow A public frozen verification succeeds; workflow B needs independently supplied matching snapshots.",
+      "id": "REPRO_RAW_NONREDISTRIBUTION_POLICY",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Reference five exact source-origin inputs by SHA256/provenance and do not publish their bytes. This supersedes the original materials-release stop, without inventing permission or immutable retrieval.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    },
+    {
+      "alternatives": [
+        "Overclaim self-contained byte-identical rerun, rejected"
+      ],
+      "category": "source constraint",
+      "downstream_consequences": "Document numeric/system limits, exact missing/wrong-input guards and untested independent scientific execution transport.",
+      "id": "REPRO_ENVIRONMENT_AND_FULL_RERUN_LIMIT",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Historical package versions/RECORD evidence exist; no portable binary lock or matching public historical raw snapshot is guaranteed.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    },
+    {
+      "alternatives": [
+        "Git all result binaries",
+        "Many small archives"
+      ],
+      "category": "researcher/Codex choice",
+      "downstream_consequences": "Inspectable manifest pins each member; public checkout plus assets reproduces verification closure.",
+      "id": "REPRO_DETERMINISTIC_EXPLICIT_ASSETS",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Publish original 1.63 GB exact records and frozen derived/provenance files as two sorted normalized Release archives instead of unnecessary Git objects.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    },
+    {
+      "alternatives": [
+        "Change accepted canonical files or original checkers, rejected"
+      ],
+      "category": "researcher/Codex choice",
+      "downstream_consequences": "All scientific-result/publication and chart checks stay active, raw-excluded public verification supported.",
+      "id": "REPRO_PORTABLE_VERIFIER_ADDITIVE_TREE",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Reuse original public projection/check code without replacing old canonical inventory. Redirect only optional private-worktree presentation report lookup.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    },
+    {
+      "alternatives": [
+        "Publish unnecessary local IP/ports",
+        "Remove source acquisition provenance"
+      ],
+      "category": "researcher/Codex choice",
+      "downstream_consequences": "Source metadata retained, raw journal untouched, no scientific field/value redaction.",
+      "id": "REPRO_ACQUISITION_METADATA_PROJECTION",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Exclude old raw acquisition log carrying local transport diagnostics. Publish a labelled NON_MODEL projection of source URLs/dates/hash/size plus original journal SHA.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    },
+    {
+      "alternatives": [
+        "Suggest rerunning historical supervisors, unsafe"
+      ],
+      "category": "researcher/Codex choice",
+      "downstream_consequences": "Document exact opt-in commands. Harness refitting not performed or claimed as tested during this release.",
+      "id": "REPRO_INDEPENDENT_RERUN_TRANSPORT",
+      "quantitative_impact": {
+        "membership_or_value_changes": 0,
+        "model_calls": 0,
+        "new_fits": 0,
+        "new_scientific_states": 0
+      },
+      "rationale": "Provide an opt-in fresh-directory harness using unchanged frozen scientific functions only after raw/code/environment guards. Never resume consumed historical authorizations.",
+      "reversibility": "Release tag/archive bytes immutable; any future correction requires a separately versioned release. Original history preserved."
+    }
+  ],
+  "issue_resolutions": [
+    {
+      "id": "REPRO_REQUIRED_INPUT_RIGHTS_OR_EXACT_RETRIEVAL_UNESTABLISHED",
+      "resolution": "Explicit user non-redistribution policy; original full self-contained gate remains historically BLOCKED. No assumption of legal rights or current-byte equivalence.",
+      "status": "RESOLVED_FOR_MATERIALS_SCOPE"
+    },
+    {
+      "id": "REPRO_CANONICAL_CHECKER_ADDITIVE_INVENTORY",
+      "resolution": "Historical closed inventory rejects exactly187 accepted runtime additions, missing canonical0. Authoritative runtime/exact projection/presentation verification closes current public tree without modifying it.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "REPRO_FINAL_PAYLOAD_AND_PUBLIC_GATES_DEFERRED",
+      "resolution": "Final closure, archives, payload scan, public Release download/hash verification and clean public checks recorded in public_verification.json.",
+      "status": "RESOLVED_ON_PUBLIC_PASS"
+    }
+  ]
+}

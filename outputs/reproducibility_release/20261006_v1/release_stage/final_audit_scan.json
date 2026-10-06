@@ -1,0 +1,16 @@
+{
+  "findings": [],
+  "paths": [
+    "outputs/reproducibility_release/20261006_v1/report.md",
+    "outputs/reproducibility_release/20261006_v1/public_verification.json",
+    "outputs/reproducibility_release/20261006_v1/final_release_assets.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/decision.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/decision_ledger.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/self_review.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/protected_review.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/staged_review.json",
+    "outputs/reproducibility_release/20261006_v1/release_stage/engineering_attempts.json"
+  ],
+  "status": "PASS",
+  "values_disclosed": false
+}

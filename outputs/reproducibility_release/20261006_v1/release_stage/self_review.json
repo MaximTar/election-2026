@@ -1,0 +1,30 @@
+{
+  "affirmative_reviewer_attention": [
+    "Exact external snapshots intentionally unavailable in release; independent matching SHA required.",
+    "Independent execution transport has not been tested by fitting during packaging.",
+    "Historical environment is documented without a portable binary lock guarantee.",
+    "Associated Release assets carry large frozen results, not all Git blobs.",
+    "Previous blocked history retained; successor policy resolution does not claim rights or immutable current-source retrieval.",
+    "No project-wide reuse license selected."
+  ],
+  "checks": {
+    "archive_determinism": "PASS",
+    "collateral_exclusions": 0,
+    "dependence_on_region_source_parameter_changed": false,
+    "external_raw_in_git_or_archives": false,
+    "frozen_scientific_article_publication_changes": 0,
+    "inconsistent_aggregates": false,
+    "input_output_reconciliation": "1620 ABCD +444 external PUBLIC =2064; external research445 includes1 INTERNAL; CARD_ONLY0",
+    "large_count_changes": false,
+    "local_and_clean_public_result_verification": "PASS",
+    "missing_wrong_hash_guard": "PASS",
+    "new_assumptions_or_methodological_choices": 0,
+    "original_BLOCKED_prefix_preserved": true,
+    "payload_secret_scan": "PASS",
+    "protected_originals": 1955,
+    "scientific_rerun_performed": false,
+    "universe_changes": 0
+  },
+  "scope": "Separate final release packaging/governance review",
+  "status": "PASS"
+}

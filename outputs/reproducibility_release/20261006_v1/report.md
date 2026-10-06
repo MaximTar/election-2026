@@ -131,3 +131,58 @@ Environment records preserve the original Python 3.14.0 / NumPy 2.4.2 / SciPy 1.
 ## Publication status at this commit
 
 Local materials gate: PASS. GitHub tag/Release and clean public-material verification are pending and will be recorded append-only below. No claim of remote completion is made at this point. No project-wide reuse license has yet been selected. No article or UI file was edited.
+
+
+# Final resumed materials-release outcome
+
+REPRODUCIBILITY_MATERIALS_GATE = PASS
+
+Release commit: `ba390cc876527e540938c4207fbd19299caa550d`. Annotated tag: `reproducibility-v1`. GitHub Release: https://github.com/MaximTar/election-2026/releases/tag/reproducibility-v1. Release manifest SHA256: `9429d64d0d0762da7723a70abe665eef39b5efe5c985a69f97c011df39b9c979`. `publication-v1` remains at `197ac6a27739a9a2b33df4c5c817ece3edde5073` (tag object `0282c5fe1964fcdf51b266606038f8ab2b3f0474`).
+
+The release was published after both final archives uploaded completely. A clean clone of the public tag downloaded every asset from anonymous public GitHub URLs, compared sizes/SHA256, unpacked only registered relative regular files and passed the portable frozen-result verifier. No original working directory or excluded raw snapshot was used. Both families' rerun commands correctly refused missing and wrong-SHA external input, before scientific imports or output creation. Receipts: `public_verification.json`.
+
+| Public check | Outcome |
+|---|---|
+| Anonymous asset download and SHA256 | PASS, all assets |
+| Clean public-only frozen verification | PASS, 2,064 PUBLIC records |
+| Source/exact scientific output mapping | PASS |
+| Runtime / presentation checks | PASS |
+| Missing input / wrong SHA guard | PASS / PASS, ABCD and external |
+| INTERNAL publicly exported / CARD_ONLY results | 0 / 0 |
+| Preserved earlier stage history | PASS, 57 prior stages |
+| Successor registered-state consistency | Separate receipt: `release_stage/general_checker_result.json` |
+| New model calls / fits / scientific states | 0 / 0 / 0 |
+
+## Final external-input inventory (bytes not redistributed)
+
+| Original path | SHA256 | Bytes | Recorded date | Origin |
+|---|---|---:|---|---|
+| `data/external/zhizhin_20260927/uik_federal_parties.csv.gz` | `739d8d7d214fba67ad6445ecd378c811724de29bdeb809a55ba9fe1195109f46` | 5012456 | Snapshot label 2026-09-27; retrieval UNKNOWN | Zhizhin |
+| `data/external/zhizhin_20260927/uik_protocols.csv.gz` | `bf6998d1df7a342197d506ef6b107c56b3118916bbfcbbd2395cb194d800b988` | 9202209 | Snapshot label 2026-09-27; retrieval UNKNOWN | Zhizhin |
+| `data/raw/20260923T110217085076Z/uik_federal_parties.csv.gz` | `84508196e31aed64a7711093b711cfc804ac47c38cfc6dd6d62d9a51ff7aec0f` | 4987002 | 2026-09-23T11:02:18.751658+00:00 | Zhizhin |
+| `data/raw/20260923T110217085076Z/uik_protocols.csv.gz` | `f596127c85428225c9b4c58ca9c6521c3e1cc958881fa4102c52a12263fb43cc` | 9059038 | 2026-09-23T11:02:19.816945+00:00 | Zhizhin |
+| `data/external/cik_duma2026_lenoblast_report453_20260927T172843Z.json` | `f7d2adf6d2b977eb9972e5476928f2a6231609c7c8f64aca006a2d731424135f` | 5149958 | 2026-09-27T17:28:43.737Z | Central Election Commission; hierarchy/report 453, not final counts |
+
+Each record is external, excluded and hash-identified. Exact schema/origin URL and mandatory SHA verification are in `EXTERNAL_INPUTS.md` / `external_inputs.json`. Current live source bytes are not assumed equivalent.
+
+## Assets
+
+| Asset | Bytes | SHA256 |
+|---|---:|---|
+| `reproducibility-v1-derived-inputs.tar.gz` | 96638999 | `fc7940f5760f39aa04a205ce363be954c92c749e1e7e04c6ee08beb2fa40520e` |
+| `reproducibility-v1-results.tar.gz` | 1709368659 | `5693973b9b47b69f9b597ae2cf2fcb5ba8a65111f5b7d37a9f94c3902cd39830` |
+| `assets.json` | 424 | `e97a6071b4b1d1c1997de954eb4bd72f76410108e816d44ed634bc4da72d5e11` |
+
+Archive total: 1,806,007,658 bytes, with 2,224 regular members. The checksum JSON is also a Release asset. Final payload signature/path scan PASS; it is not a universal mathematical proof against every form of private information.
+
+## Revised article-claim gate
+
+CLAIM A = SUPPORTED_WITH_QUALIFICATION. Code/settings/hashes/reproduction instructions are in Git; large original results and project-derived views are associated GitHub Release assets linked by the repository. Exact third-party raw identifiers are recorded, their bytes not mirrored. This does not establish end-to-end rerun of every earlier private collector/stage publisher or guaranteed binary-identical fitting.
+
+CLAIM B = SUPPORTED. Technical materials/settings/hashes/frozen results are published, while some source-origin snapshots are explicitly not redistributed.
+
+SELF_CONTAINED_FULL_RERUN = NO. Public frozen-result verification is complete. Scientific refitting was not performed during packaging. No project-wide reuse license selected.
+
+## Final handoff
+
+Stage completed: Reproducibility materials v1, PASS. Primary unchanged 87,736 paper UIKs / 84 regions / 2,818 TIKs. Real rows through kernels 0, new exclusions 0, output state inventory unchanged 2,064 PUBLIC. New scientific choices 0. Source snapshots/environments are accepted limitations, not substituted data. External branch remains CLOSED, G remains bounded NO_GO, roadmap-99 unchanged and paused before item 54. No article/UI edits. Safe next action: separately authorize accurate technical/narrative publication wording and a bounded re-review.

@@ -1,0 +1,131 @@
+{
+  "asset_downloads": [
+    {
+      "anonymous_download": true,
+      "bytes": 96638999,
+      "file_count": 12,
+      "name": "reproducibility-v1-derived-inputs.tar.gz",
+      "sha256": "fc7940f5760f39aa04a205ce363be954c92c749e1e7e04c6ee08beb2fa40520e",
+      "status": "PASS",
+      "url": "https://github.com/MaximTar/election-2026/releases/download/reproducibility-v1/reproducibility-v1-derived-inputs.tar.gz"
+    },
+    {
+      "anonymous_download": true,
+      "bytes": 1709368659,
+      "file_count": 2212,
+      "name": "reproducibility-v1-results.tar.gz",
+      "sha256": "5693973b9b47b69f9b597ae2cf2fcb5ba8a65111f5b7d37a9f94c3902cd39830",
+      "status": "PASS",
+      "url": "https://github.com/MaximTar/election-2026/releases/download/reproducibility-v1/reproducibility-v1-results.tar.gz"
+    },
+    {
+      "anonymous_download": true,
+      "bytes": 424,
+      "name": "assets.json",
+      "sha256": "e97a6071b4b1d1c1997de954eb4bd72f76410108e816d44ed634bc4da72d5e11",
+      "status": "PASS",
+      "url": "https://github.com/MaximTar/election-2026/releases/download/reproducibility-v1/assets.json"
+    }
+  ],
+  "clean_source": "public tag clone + anonymously downloaded GitHub Release assets only",
+  "clean_verification": {
+    "ABCD": 1620,
+    "accepted_manifest_hashes": {
+      "publication/sites/presentation/20261005_v1/manifest.json": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+      "publication/sites/v1/manifest.json": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "publication/sites/v1/runtime/manifest.json": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c"
+    },
+    "card_only_project_results": 0,
+    "exact_result_mapping": "PASS",
+    "external_public": 444,
+    "external_raw_files_required_for_verification": 0,
+    "external_research": 445,
+    "internal_exported": 0,
+    "model_calls": 0,
+    "new_fits": 0,
+    "new_scientific_states": 0,
+    "presentation_frozen_bindings": "PASS",
+    "presentation_local_optional_provenance": "NOT_AVAILABLE_IN_PARTIAL_PUBLIC_CHECKOUT",
+    "presentation_public_checks": "PASS",
+    "public_states": 2064,
+    "release_files_verified": 2357,
+    "runtime_check": "PASS",
+    "status": "PASS"
+  },
+  "fresh_output_created": false,
+  "missing_input_guard": {
+    "families": {
+      "abcd": {
+        "exit_code": 1,
+        "reason": "MISSING_EXTERNAL_INPUT",
+        "status": "PASS"
+      },
+      "external": {
+        "exit_code": 1,
+        "reason": "MISSING_EXTERNAL_INPUT",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  },
+  "public_docs": [
+    {
+      "bytes": 1210698,
+      "path": "reproducibility/v1/manifest.json",
+      "sha256": "9429d64d0d0762da7723a70abe665eef39b5efe5c985a69f97c011df39b9c979",
+      "status": "PASS",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/reproducibility-v1/reproducibility/v1/manifest.json"
+    },
+    {
+      "bytes": 5850,
+      "path": "reproducibility/v1/REPRODUCE.md",
+      "sha256": "6b8777050a28602e1d102ea88ee1cff68ffdc5760c3160d2b86056e0201a1505",
+      "status": "PASS",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/reproducibility-v1/reproducibility/v1/REPRODUCE.md"
+    },
+    {
+      "bytes": 3403,
+      "path": "reproducibility/v1/VERIFY.md",
+      "sha256": "35fc43eee49ba576cfd875850cc3e48e8c5fb6ea26f72f3f517ec3d7672ea227",
+      "status": "PASS",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/reproducibility-v1/reproducibility/v1/VERIFY.md"
+    },
+    {
+      "bytes": 11243,
+      "path": "reproducibility/v1/external_inputs.json",
+      "sha256": "2933cea6795122106e3814de00f31597826d9946c27732c3cb9e49c4503e342f",
+      "status": "PASS",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/reproducibility-v1/reproducibility/v1/external_inputs.json"
+    },
+    {
+      "bytes": 424,
+      "path": "reproducibility/v1/assets.json",
+      "sha256": "e97a6071b4b1d1c1997de954eb4bd72f76410108e816d44ed634bc4da72d5e11",
+      "status": "PASS",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/reproducibility-v1/reproducibility/v1/assets.json"
+    }
+  ],
+  "release_commit": "ba390cc876527e540938c4207fbd19299caa550d",
+  "release_url": "https://github.com/MaximTar/election-2026/releases/tag/reproducibility-v1",
+  "scientific_calls": 0,
+  "scientific_imports_on_failure": 0,
+  "self_contained_full_rerun": false,
+  "status": "PASS",
+  "tag": "reproducibility-v1",
+  "tag_object": "3f38311c8adc3a8277da6100089d6b8b2b7de52f",
+  "wrong_hash_guard": {
+    "families": {
+      "abcd": {
+        "exit_code": 1,
+        "reason": "EXTERNAL_INPUT_HASH_MISMATCH",
+        "status": "PASS"
+      },
+      "external": {
+        "exit_code": 1,
+        "reason": "EXTERNAL_INPUT_HASH_MISMATCH",
+        "status": "PASS"
+      }
+    },
+    "status": "PASS"
+  }
+}

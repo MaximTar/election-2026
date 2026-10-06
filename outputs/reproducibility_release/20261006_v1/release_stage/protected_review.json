@@ -1,0 +1,26 @@
+{
+  "authorized_engineering_changes": {
+    "README.md": {
+      "after": "9531f1ec9b4229a23198342448bf385a4acd274bd6d1a3e49b89216b772c7d99",
+      "before": "c7835fe0dcdb45e986d786e16a75a2b23d1fc2d45c34b67999d6505c2da077e4"
+    }
+  },
+  "collateral_exclusions": 0,
+  "denominator_changes": 0,
+  "external_raw_paths_selected": 0,
+  "frozen_scientific_publication_article_changes": 0,
+  "initial_blocked_report_prefix_preserved": true,
+  "membership_changes": 0,
+  "new_fits": 0,
+  "new_methodological_choices": 0,
+  "new_model_calls": 0,
+  "new_scientific_states": 0,
+  "protected_file_count": 1955,
+  "reviewer_attention": [
+    "Large original result archive supplied as Release asset, not Git objects.",
+    "Independent execution transport has not been refitted in this packaging task.",
+    "Exact external snapshots intentionally absent; current live data not interchangeable.",
+    "No portable binary lock guarantee."
+  ],
+  "status": "PASS"
+}

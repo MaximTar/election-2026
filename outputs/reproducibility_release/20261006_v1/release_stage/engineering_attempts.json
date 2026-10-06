@@ -1,0 +1,20 @@
+{
+  "attempts": [
+    {
+      "failure": "Probe caught RuntimeError while shared guard raises ValueError. CLI absent/wrong-hash tests had already correctly failed before scientific imports.",
+      "released_or_scientific_code_changed": false,
+      "resolution": "Corrected only temporary test catch to ValueError; both CLI and no-scientific-import probes PASS.",
+      "scope": "Disposable clean negative-test helper"
+    },
+    {
+      "failure": "First launch omitted PYTHONPATH for a /tmp script.",
+      "resolution": "Relaunched same read-only script with PYTHONPATH=.; no history/science edit.",
+      "scope": "Temporary prospective history check"
+    },
+    {
+      "failure": "Installed older gh lacks release create --verify-tag and release edit.",
+      "resolution": "Verified existing remote annotated tag through API. Created draft with explicit target; publish uses API PATCH draft=false. No tag reset or replacement.",
+      "scope": "GitHub CLI compatibility"
+    }
+  ]
+}
