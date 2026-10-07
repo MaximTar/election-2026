@@ -2,6 +2,10 @@
 /*
 !/.gitignore
 !/README.md
+!/LICENSE.md
+!/LICENSE-CODE.txt
+!/LICENSE-CONTENT.md
+!/THIRD_PARTY_NOTICES.md
 !/.github/
 /.github/*
 !/.github/workflows/

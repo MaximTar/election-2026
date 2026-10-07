@@ -35,5 +35,13 @@ bytes only and does not run or regenerate scientific calculations.
 must use separate output directories and must not overwrite frozen results. See
 release documentation for environment capture and historical-pipeline limitations.
 
-No project-wide reuse license has yet been selected. External data retain their
-own source/rights status.
+## License
+
+Project-authored code is licensed under MIT. Eligible project-authored text,
+documentation, visualizations and project-created derived materials are licensed
+under CC BY 4.0. Third-party source material is excluded and retains its own terms.
+See the [license scope](LICENSE.md), [MIT notice](LICENSE-CODE.txt),
+[content license](LICENSE-CONTENT.md) and
+[third-party notices](THIRD_PARTY_NOTICES.md). The current grants also apply to
+eligible earlier project-authored tagged/released versions; historical release
+records remain unchanged.
