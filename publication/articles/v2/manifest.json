@@ -1,0 +1,201 @@
+{
+  "articles": [
+    {
+      "based_on": "technical_article_v11.md",
+      "based_on_sha256": "6e6cde09ac2cb091337776fba64ccae92a27e84cd40bed12d4c49ca7402c4c30",
+      "based_on_source_path": "data/external/technical_article_v11.md",
+      "byte_size": 133310,
+      "change_scope": "terminal punctuation removed from unordered Markdown list items only",
+      "language": "ru",
+      "license": "CC-BY-4.0",
+      "methodological_review": "PASS_WITH_MINOR_FIXES_RESOLVED",
+      "public_path": "publication/articles/v2/technical_article.md",
+      "publication_state": "frozen_text",
+      "review": "PASS_WITH_MINOR_FIXES_RESOLVED",
+      "role": "technical_article",
+      "sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+      "source_local_path": "data/external/technical_article_v12.md"
+    },
+    {
+      "byte_size": 28733,
+      "content_sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+      "language": "ru",
+      "license": "CC-BY-4.0",
+      "public_path": "publication/articles/v2/narrative.md",
+      "publication_state": "frozen_text",
+      "review": "PASS",
+      "role": "narrative_article",
+      "sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+      "source_local_path": "publication/articles/v1/narrative.md",
+      "source_version": "narrative-draft-v3",
+      "source_version_unchanged": true
+    }
+  ],
+  "fits": 0,
+  "license_scope": "../../../LICENSE.md",
+  "model_calls": 0,
+  "new_scientific_states": 0,
+  "schema_version": "1",
+  "scientific_state_changed": false,
+  "typographic_validation": {
+    "changes": [
+      {
+        "changed_line": 130,
+        "item_source_lines": [
+          130,
+          130
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 131,
+        "item_source_lines": [
+          131,
+          131
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 132,
+        "item_source_lines": [
+          132,
+          132
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 133,
+        "item_source_lines": [
+          133,
+          133
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 141,
+        "item_source_lines": [
+          141,
+          141
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 142,
+        "item_source_lines": [
+          142,
+          142
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 143,
+        "item_source_lines": [
+          143,
+          143
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 144,
+        "item_source_lines": [
+          144,
+          144
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 860,
+        "item_source_lines": [
+          860,
+          860
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 861,
+        "item_source_lines": [
+          861,
+          861
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 867,
+        "item_source_lines": [
+          867,
+          867
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 868,
+        "item_source_lines": [
+          868,
+          868
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 869,
+        "item_source_lines": [
+          869,
+          869
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1071,
+        "item_source_lines": [
+          1070,
+          1071
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1073,
+        "item_source_lines": [
+          1072,
+          1073
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1075,
+        "item_source_lines": [
+          1074,
+          1075
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1077,
+        "item_source_lines": [
+          1076,
+          1077
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1079,
+        "item_source_lines": [
+          1078,
+          1079
+        ],
+        "removed": "."
+      },
+      {
+        "changed_line": 1080,
+        "item_source_lines": [
+          1080,
+          1080
+        ],
+        "removed": "."
+      }
+    ],
+    "graph_anchors": 8,
+    "items_changed": 19,
+    "remaining_violations": 0,
+    "strict_diff": "PASS",
+    "unordered_items_checked": 61
+  }
+}
