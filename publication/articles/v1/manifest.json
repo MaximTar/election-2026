@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "byte_size": 133329,
+      "language": "ru",
+      "license": "CC-BY-4.0",
+      "public_path": "publication/articles/v1/technical_article.md",
+      "publication_state": "frozen_text",
+      "review": "PASS_WITH_MINOR_FIXES_RESOLVED",
+      "role": "technical_article",
+      "sha256": "6e6cde09ac2cb091337776fba64ccae92a27e84cd40bed12d4c49ca7402c4c30",
+      "source_local_path": "data/external/technical_article_v11.md"
+    },
+    {
+      "byte_size": 28733,
+      "language": "ru",
+      "license": "CC-BY-4.0",
+      "public_path": "publication/articles/v1/narrative.md",
+      "publication_state": "frozen_text",
+      "review": "PASS",
+      "role": "narrative_article",
+      "sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+      "source_local_path": "data/external/narrative-draft-v3.md"
+    }
+  ],
+  "fits": 0,
+  "license_scope": "../../../LICENSE.md",
+  "model_calls": 0,
+  "new_scientific_states": 0,
+  "schema_version": "1",
+  "scientific_state_changed": false
+}
