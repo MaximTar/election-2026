@@ -4,6 +4,8 @@ One research project with frozen, precomputed conditional calculation outputs.
 Different method outputs have different meanings and are not estimates that can be
 averaged into one election result.
 
+- [Russian public release](https://election-2026-explorer.max-tar.chatgpt.site/).
+- [Final release record](outputs/final_release/20261008_ru_v1/report.md).
 - [Public static data endpoint](https://maximtar.github.io/election-2026/).
 - Canonical publication contract: `publication/sites/v1/`.
 - Lightweight client delivery: `publication/sites/v1/runtime/`.

@@ -1,0 +1,420 @@
+{
+  "anomaly_branch_reopened": false,
+  "article_edited": false,
+  "article_package_manifest_sha256": "7734a9b50f89d60792867174eef2920c28a0f689be1d3cab4169306bcb3c8fb0",
+  "article_path": "publication/articles/v2/technical_article.md",
+  "article_sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+  "article_source_url": "https://raw.githubusercontent.com/MaximTar/election-2026/c001f2be25d2d1ed96ddb991677935c7a06487ae/publication/articles/v2/technical_article.md",
+  "automated_checks": {
+    "article_package_manifest": "PASS",
+    "initial_working_tree_clean": true,
+    "narrative_v1_v2_byte_equality": "PASS",
+    "presentation": {
+      "charts": 6,
+      "checks": {
+        "1D_curve_component_sum_and_stored_SSE": "PASS",
+        "2D_frozen_centers_and_membership_no_inference": "PASS",
+        "Cedar_exact_rational_reproduction_and_unchanged_support": "PASS",
+        "accepted_canonical_and_runtime_closure": "PASS",
+        "frozen_runs_reveal_article_publication_unchanged": "PASS",
+        "iStories_stored_coefficients_residuals_and_15_windows": "PASS",
+        "json_schema_public_scope_finite_arrays": "PASS",
+        "local_authoritative_parameter_bindings": "PASS",
+        "manifest_file_hash_closure": "PASS",
+        "sparse_density_grid_uniqueness_and_totals": "PASS",
+        "stdlib_only_reader_no_scientific_imports": "PASS"
+      },
+      "fits": 0,
+      "model_calls": 0,
+      "optimizer_calls": 0,
+      "raw_bytes": 924959,
+      "real_source_rows_passed_through_kernels": 0,
+      "scientific_model_runs": 0,
+      "scientific_states_added": 0,
+      "status": "PASS"
+    },
+    "public_downloaded_inventory": {
+      "card_only_count": 2,
+      "card_only_executable_result_count": 0,
+      "internal_public_count": 0,
+      "public_state_count": 2064,
+      "public_state_files_all_exact": true,
+      "remote_local_byte_equality": [
+        "technical_raw",
+        "narrative_raw",
+        "article_manifest",
+        "canonical",
+        "runtime",
+        "presentation",
+        "method_catalog"
+      ],
+      "state_counts": {
+        "abc": 1600,
+        "cedar": 161,
+        "d": 20,
+        "novaya_1d": 90,
+        "novaya_2d": 91,
+        "vazhnye_istorii": 102
+      },
+      "status": "PASS"
+    },
+    "runtime": {
+      "canonical_files_changed": 0,
+      "canonical_files_verified": 1640,
+      "canonical_manifest_after": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "canonical_manifest_before": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "card_only_methods": 2,
+      "card_only_project_results": 0,
+      "checks": [
+        {
+          "check": "all_1640_accepted_canonical_files_and_original_generator_bindings_unchanged",
+          "status": "PASS"
+        },
+        {
+          "check": "runtime_schema_complete_inventory_hashes_and_lossless_gzip_transports",
+          "status": "PASS"
+        },
+        {
+          "check": "bootstrap_has_no_exact_sidecar_inventory_and_no_runtime_exact_copies",
+          "status": "PASS"
+        },
+        {
+          "check": "2064_PUBLIC_states_exact_canonical_record_reconstruction_and_all_defaults_resolve",
+          "status": "PASS"
+        },
+        {
+          "check": "1600_ABC_once_20_D_once_444_small_methods_no_cartesian_inference",
+          "status": "PASS"
+        },
+        {
+          "check": "all_exact_references_resolve_to_existing_canonical_sidecars_without_decode",
+          "status": "PASS"
+        },
+        {
+          "check": "all_result_types_semantic_guards_coverage_support_and_D_undefined_preserved",
+          "status": "PASS"
+        },
+        {
+          "check": "zero_INTERNAL_reachable_two_CARD_ONLY_without_results",
+          "status": "PASS"
+        },
+        {
+          "check": "every_runtime_byte_matches_deterministic_canonical_projection",
+          "status": "PASS"
+        },
+        {
+          "check": "eight_negative_transport_semantics_and_missingness_regressions",
+          "status": "PASS"
+        },
+        {
+          "check": "no_scientific_kernel_source_provider_or_optimizer_import",
+          "status": "PASS"
+        }
+      ],
+      "internal_reachable": 0,
+      "negative_regressions": [
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "missing_state"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "internal_state"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "Cedar_wrong_estimand"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "D_undefined_zero"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "exact_reference_changed"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "reference_escape"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "unknown_default"
+        },
+        {
+          "corruption_rejected": true,
+          "status": "PASS",
+          "test": "gzip_wrong_payload"
+        }
+      ],
+      "new_fits": 0,
+      "new_methodological_choices": 0,
+      "new_model_calls": 0,
+      "new_scientific_states": 0,
+      "public_states": 2064,
+      "real_source_rows_passed_through_kernels": 0,
+      "route_counts": {
+        "abc": 64,
+        "d": 20
+      },
+      "runtime_files": 187,
+      "runtime_inventory_sha256": "6fcb1bec0332ff83cc6153fc5bcda9cb17ed30a19a7830cfbd4a08193e5579ef",
+      "runtime_manifest_sha256": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c",
+      "state_counts": {
+        "abc": 1600,
+        "cedar": 161,
+        "d": 20,
+        "novaya_1d": 90,
+        "novaya_2d": 91,
+        "vazhnye_istorii": 102
+      },
+      "status": "PASS"
+    },
+    "separate_self_review": "PASS"
+  },
+  "canonical_sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+  "card_only_executable_result_count": 0,
+  "card_only_methods": 2,
+  "explicit_non_claims": [
+    "No true election result is established.",
+    "No statistical anomaly, geometry, signed residual or component membership proves fraud or precinct honesty.",
+    "Different estimands are not averaged or ranked as one truth scale.",
+    "Specification sensitivity ranges are not confidence intervals."
+  ],
+  "fits": 0,
+  "frozen_results_modified": false,
+  "http_verification": [
+    {
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "name": "site",
+      "response_bytes": 16183,
+      "response_sha256": "60d5f4ed838e63c9d1c02a30ee5454a40a0b9ef0009d2d3f0562c19b18b974ca",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/"
+    },
+    {
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "name": "article",
+      "response_bytes": 350601,
+      "response_sha256": "104fa6ae4ff27d6449c5a46122bac4ff2496af29902a3fe1f8e729eb302496a7",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/article"
+    },
+    {
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "name": "methods",
+      "response_bytes": 12291,
+      "response_sha256": "eb452bb5ec8de1c63c749fd11043a9bf35c6f7ff7aa758c96431288a07c5a58f",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/methods"
+    },
+    {
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "name": "sources",
+      "response_bytes": 16045,
+      "response_sha256": "4a9844a5b99b2e900301dadd21d7e51bbc0cf7ff57b7ded263b304110d6b43fe",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/sources"
+    },
+    {
+      "content_type": "text/plain; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "technical_raw",
+      "sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/c001f2be25d2d1ed96ddb991677935c7a06487ae/publication/articles/v2/technical_article.md"
+    },
+    {
+      "content_type": "text/plain; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "narrative_raw",
+      "sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/c001f2be25d2d1ed96ddb991677935c7a06487ae/publication/articles/v2/narrative.md"
+    },
+    {
+      "content_type": "text/plain; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "article_manifest",
+      "sha256": "7734a9b50f89d60792867174eef2920c28a0f689be1d3cab4169306bcb3c8fb0",
+      "url": "https://raw.githubusercontent.com/MaximTar/election-2026/c001f2be25d2d1ed96ddb991677935c7a06487ae/publication/articles/v2/manifest.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "canonical",
+      "sha256": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+      "url": "https://maximtar.github.io/election-2026/manifest.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "runtime",
+      "sha256": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c",
+      "url": "https://maximtar.github.io/election-2026/runtime/manifest.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "presentation",
+      "sha256": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+      "url": "https://maximtar.github.io/election-2026/presentation/20261005_v1/manifest.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "method_catalog",
+      "sha256": "047ec2d86f68e89abad4f1971c3c41b84398b8a982cb0c961292eafdbc2a054c",
+      "url": "https://maximtar.github.io/election-2026/methods.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_abc",
+      "sha256": "28498d85b188373bcb49a58af03bccbffb184671235346f7292327a58f2788a8",
+      "url": "https://maximtar.github.io/election-2026/states/abc.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_cedar",
+      "sha256": "4940c9fdac72c1ad380ac7e78674df4770c12bf16db03c6012d535f6d4589278",
+      "url": "https://maximtar.github.io/election-2026/states/cedar.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_d",
+      "sha256": "7e89f37f4ced028ff21301591b6b1018cf986437e48caddef178f22f599772ff",
+      "url": "https://maximtar.github.io/election-2026/states/d.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_novaya_1d",
+      "sha256": "7ac2950f30ebf37fd58ef72bb57dcc883ea5eaab776d6af97520ac8b800e80ca",
+      "url": "https://maximtar.github.io/election-2026/states/novaya_1d.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_novaya_2d",
+      "sha256": "dea4a9f839227295470d159354054363f2ed60d1fb6b2ab5581268dedbdc61ef",
+      "url": "https://maximtar.github.io/election-2026/states/novaya_2d.json"
+    },
+    {
+      "content_type": "application/json; charset=utf-8",
+      "http_status": 200,
+      "local_byte_equality": true,
+      "name": "states_vazhnye_istorii",
+      "sha256": "57c3f31d0475af98be358bd968be707e689f025742e526768c0cd5595e54d916",
+      "url": "https://maximtar.github.io/election-2026/states/vazhnye_istorii.json"
+    },
+    {
+      "content_type": "text/html; charset=utf-8",
+      "http_status": 200,
+      "name": "reproducibility",
+      "release_api_draft": false,
+      "url": "https://github.com/MaximTar/election-2026/releases/tag/reproducibility-v1"
+    }
+  ],
+  "immutable_existing_tag_objects": {
+    "publication-v1": "0282c5fe1964fcdf51b266606038f8ab2b3f0474",
+    "reproducibility-v1": "3f38311c8adc3a8277da6100089d6b8b2b7de52f"
+  },
+  "internal_public_count": 0,
+  "internal_scope_note": "Zero INTERNAL states in the public API/Explorer export; the separate research archive retains one explicitly INTERNAL state.",
+  "known_limitations": [
+    "Third-party raw source snapshots are intentionally not redistributed. Exact full scientific rerun requires independently obtaining matching external input bytes and verifying their recorded SHA256.",
+    "Manual browser QA is user-reported, not an automated cross-browser test. HTTP checks do not prove rendered layout or character-by-character equality between the hosted article and its Markdown source.",
+    "English localization is not part of this release.",
+    "The Git tag freezes this record and repository bindings. The separately hosted live website remains an external deployment; HTTP response fingerprints record the version observed during this audit.",
+    "Historical environment capture and numeric-versus-byte reproduction limitations remain as documented in reproducibility/v1/REPRODUCE.md."
+  ],
+  "license_changed": false,
+  "license_policy": {
+    "eligible_project_authored_content_and_derived_materials": "CC-BY-4.0",
+    "file_sha256": {
+      "LICENSE-CODE.txt": "768ab23beca231040a888a3f8c46c96665b7c28e3894d87890a34d0aa6f4b3ab",
+      "LICENSE-CONTENT.md": "37c5aad2e72f2268e43e16e4deb5661b34d897e71c0ac329ad3bc85538bdecec",
+      "LICENSE.md": "a24faaf75b0c8931be37c95c6410edac01f931fa499712009fbb3673f9ac6b78",
+      "THIRD_PARTY_NOTICES.md": "fb35a397db6f6871ec5fd6a5430f9560a38af36f941a553b6bf498453a38b7d1"
+    },
+    "project_authored_code": "MIT",
+    "third_party_material": "excluded; original terms retained"
+  },
+  "manual_visual_qa": "PASS",
+  "manual_visual_qa_scope": [
+    "Article desktop and mobile layout",
+    "Article bullet markers",
+    "Article mobile tables and horizontal overflow",
+    "Generic density figure",
+    "Cedar figures",
+    "Compact A/B/C figure and mobile readability",
+    "Article figures generally",
+    "Methods/Sources UX"
+  ],
+  "manual_visual_qa_source": "user browser review",
+  "model_calls": 0,
+  "narrative_path": "publication/articles/v2/narrative.md",
+  "narrative_sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+  "new_methodological_choices": 0,
+  "new_scientific_states": 0,
+  "presentation_sha256": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+  "primary_universe": {
+    "membership_changed": false,
+    "name": "paper_primary",
+    "regions": 84,
+    "tiks": 2818,
+    "uiks": 87736
+  },
+  "public_family_counts": {
+    "abc": 1600,
+    "cedar": 161,
+    "d": 20,
+    "novaya_1d": 90,
+    "novaya_2d": 91,
+    "vazhnye_istorii": 102
+  },
+  "public_state_count": 2064,
+  "public_urls": {
+    "article": "https://election-2026-explorer.max-tar.chatgpt.site/article",
+    "methods": "https://election-2026-explorer.max-tar.chatgpt.site/methods",
+    "sources": "https://election-2026-explorer.max-tar.chatgpt.site/sources",
+    "website": "https://election-2026-explorer.max-tar.chatgpt.site/"
+  },
+  "publication_tag": "publication-v1",
+  "release_commit_reference": "ru-release-v1^{}",
+  "release_date": "2026-10-08",
+  "release_gate": "PASS",
+  "release_id": "ru-release-v1",
+  "release_name": "Russian public release v1",
+  "report": {
+    "path": "outputs/final_release/20261008_ru_v1/report.md",
+    "sha256": "de447b29523f01a00b3105b5aeff9efb96c24e6c749aa1c82700fec3ff794047"
+  },
+  "repository_revision_before_freeze": "c001f2be25d2d1ed96ddb991677935c7a06487ae",
+  "reproducibility_release_url": "https://github.com/MaximTar/election-2026/releases/tag/reproducibility-v1",
+  "reproducibility_tag": "reproducibility-v1",
+  "runtime_sha256": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c",
+  "schema_version": 1,
+  "scientific_data_regenerated": false,
+  "site_edited": false
+}
