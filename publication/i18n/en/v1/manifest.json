@@ -1,0 +1,129 @@
+{
+  "authoritative_language": "ru",
+  "english_narrative_sha256": "7ded38edf6e3c135d696f7c604cb99d0fa917738d5bcbee21ac6ec866f1f97e9",
+  "english_release_tag_created": false,
+  "english_technical_article_sha256": "868561def3dcd8a3c7f64226ecfbda0615d9f9a46ae9b30b6993654b364e01f2",
+  "files": [
+    {
+      "bytes": 6980,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "glossary.md",
+      "role": "controlled_terminology",
+      "sha256": "be1e6aa4ea6dbab74ac69122f5c6ab6f170c52a74cee55d57dfbbfe304576c8f"
+    },
+    {
+      "bytes": 16749,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "narrative.md",
+      "role": "full_narrative_translation",
+      "sha256": "7ded38edf6e3c135d696f7c604cb99d0fa917738d5bcbee21ac6ec866f1f97e9"
+    },
+    {
+      "bytes": 24648,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "semantic_review.json",
+      "role": "separate_semantic_review",
+      "sha256": "81f289ab03b6b018b6bc36bed5904c29b3b6fecf7a04ec6935e6dcbdcee5e7ac"
+    },
+    {
+      "bytes": 101977,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "site_copy_inventory.json",
+      "role": "source_coverage_and_provenance",
+      "sha256": "f40f71baae84ea755ad91b98c866da47889607a17fd28d24c12d73aa988773c0"
+    },
+    {
+      "bytes": 36525,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "site_strings.json",
+      "role": "reader_facing_catalog",
+      "sha256": "0d597bbad7236b4df2fcd7852aa817157a5bfcfbb610cc0388523d9429d6e1b9"
+    },
+    {
+      "bytes": 77846,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "technical_article.md",
+      "role": "full_technical_translation",
+      "sha256": "868561def3dcd8a3c7f64226ecfbda0615d9f9a46ae9b30b6993654b364e01f2"
+    },
+    {
+      "bytes": 11437,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "translation_notes.md",
+      "role": "translation_decisions_and_route_contract",
+      "sha256": "e513e4ce8e4beb843494e4cbf6449740206052dea2053e397a769f78996f6497"
+    },
+    {
+      "bytes": 9332,
+      "license": "MIT",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "validate_translation.py",
+      "role": "read_only_validation_tool",
+      "sha256": "8acb25a0c90e6f41646aef41cc582a0904a53d1f6a3441c85b17ecb8ee28ac99"
+    },
+    {
+      "bytes": 1470,
+      "license": "CC-BY-4.0",
+      "license_scope": "Project-authored material only; third-party references retain their own terms.",
+      "path": "validation.json",
+      "role": "mechanical_invariant_results",
+      "sha256": "1f67a18108d1d4ef5fca6b7368eb1617c67f347145702d23d74dea757cc48646"
+    }
+  ],
+  "fits": 0,
+  "glossary_sha256": "be1e6aa4ea6dbab74ac69122f5c6ab6f170c52a74cee55d57dfbbfe304576c8f",
+  "immutable_tag_objects": {
+    "publication-v1": "0282c5fe1964fcdf51b266606038f8ab2b3f0474",
+    "reproducibility-v1": "3f38311c8adc3a8277da6100089d6b8b2b7de52f",
+    "ru-release-v1": "5869ec6827ad0bc29356bd4554f4157e6382f572"
+  },
+  "intended_routes": {
+    "/": "/en/",
+    "/article": "/en/article",
+    "/methods": "/en/methods",
+    "/sources": "/en/sources"
+  },
+  "known_caveats": [
+    "Model-assisted translation and model-assisted review can still contain errors. Russian remains authoritative.",
+    "No English route implementation, rendered layout or browser localization QA was performed.",
+    "Party labels are consistent faithful short names where full official English branding is not established."
+  ],
+  "language": "en",
+  "locale_state_policy": "Same frozen scientific state IDs; preserve page and query state; presentation locale only.",
+  "model_calls_for_science": 0,
+  "new_scientific_states": 0,
+  "package_id": "english-translation-v1",
+  "russian_article_sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+  "russian_artifacts_changed": false,
+  "russian_narrative_sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+  "schema_version": "1",
+  "scientific_bindings": {
+    "publication/sites/presentation/20261005_v1/manifest.json": "beb00a95ad1f1d9edc5e05fff17b033a7f23649ecee9b470520b8838f5f7e771",
+    "publication/sites/v1/manifest.json": "38d8f0eaa79952b4036d7e23c04ff40cca65f51e40f5cbbcddc88efd92fc3d16",
+    "publication/sites/v1/runtime/manifest.json": "3998d58ec33c4bb8d28b6a35abdb5d2d2d28772a7aaea20b7fbd61afd598131c"
+  },
+  "scientific_state_changed": false,
+  "semantic_equivalence_review": "PASS",
+  "site_catalog_strings": 472,
+  "site_implemented": false,
+  "site_source_priority_resolution": "One stale live Sources sentence replaced in English with higher-priority frozen Russian release wording, as recorded in site_copy_inventory.json.",
+  "site_strings_sha256": "0d597bbad7236b4df2fcd7852aa817157a5bfcfbb610cc0388523d9429d6e1b9",
+  "source_freeze_commit": "20bacb4c343e952062599889ea4a4938fb258b98",
+  "source_russian_release": "ru-release-v1",
+  "translation_gates": {
+    "narrative_translation": "PASS",
+    "semantic_equivalence": "PASS",
+    "site_copy_translation": "PASS",
+    "technical_translation": "PASS"
+  },
+  "translation_method": "OpenAI model-assisted machine translation",
+  "translation_model_usage_is_scientific_model_call": false,
+  "translation_notes_sha256": "e513e4ce8e4beb843494e4cbf6449740206052dea2053e397a769f78996f6497"
+}

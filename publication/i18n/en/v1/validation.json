@@ -1,0 +1,48 @@
+{
+  "articles": {
+    "narrative.md": {
+      "blockquote_lines": 2,
+      "details_count": 0,
+      "english_sha256": "7ded38edf6e3c135d696f7c604cb99d0fa917738d5bcbee21ac6ec866f1f97e9",
+      "figure_anchors": 0,
+      "heading_count": 11,
+      "line_structure_matches": true,
+      "links": 7,
+      "numbers_links_formulas_tables_emphasis_match": true,
+      "numeric_tokens": 70,
+      "russian_sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+      "table_count": 0,
+      "table_lines": 0,
+      "unordered_items": 2,
+      "untranslated_prose_occurrences": 0
+    },
+    "technical_article.md": {
+      "blockquote_lines": 16,
+      "details_count": 17,
+      "english_sha256": "868561def3dcd8a3c7f64226ecfbda0615d9f9a46ae9b30b6993654b364e01f2",
+      "figure_anchors": 8,
+      "heading_count": 43,
+      "line_structure_matches": true,
+      "links": 21,
+      "numbers_links_formulas_tables_emphasis_match": true,
+      "numeric_tokens": 626,
+      "russian_sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+      "table_count": 9,
+      "table_lines": 95,
+      "unordered_items": 61,
+      "untranslated_prose_occurrences": 0
+    }
+  },
+  "science_calls": 0,
+  "scientific_bindings_unchanged": true,
+  "site_catalog": {
+    "designs": 16,
+    "parties": 10,
+    "regions": 84,
+    "source_mappings": 415,
+    "strings": 472,
+    "untranslated_reader_strings": 0
+  },
+  "status": "PASS",
+  "writes": 0
+}

@@ -1,0 +1,2616 @@
+{
+  "article_bodies_excluded": true,
+  "bundles": [
+    {
+      "bytes": 4310,
+      "russian_literal_count": 14,
+      "sha256": "f03da0381c2366605676dbf87d00a70254cfa723f256be94f0a98cf1526cae18",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/_next/static/chunks/article-figure-BpmgW33q.js"
+    },
+    {
+      "bytes": 555266,
+      "russian_literal_count": 156,
+      "sha256": "6c72256f41297f40fb8cd1f19e1566252bfac154b19534f745b76a2241d3f77a",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/_next/static/chunks/explorer-4PngxoOv.js"
+    },
+    {
+      "bytes": 11782,
+      "russian_literal_count": 73,
+      "sha256": "7f57dacc63cd8ed99161adbb97402df048407752a48e8632a19acd963db2bceb",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/_next/static/chunks/publication-0LIYyF6j.js"
+    },
+    {
+      "bytes": 12229,
+      "russian_literal_count": 59,
+      "sha256": "60c5903537d9a9c8e2eb26743683370f1325fe18c66a408d0f1f017f6e20771b",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/_next/static/chunks/secondary-DtF0SZI2.js"
+    },
+    {
+      "bytes": 1142,
+      "russian_literal_count": 8,
+      "sha256": "c8ad5563077fd1c3161967e89986ad000dae35398e103d8aa712b2f36e47c739",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/_next/static/chunks/shell-PO_CK5aG.js"
+    }
+  ],
+  "catalog": "site_strings.json",
+  "catalog_count": 472,
+  "collection_scope": "All reader-bearing lazy JS chunks reachable from the captured public route bundle; SSR navigation/page-shell text; frozen design/source/method metadata. No site implementation is included.",
+  "known_source_conflicts": [
+    {
+      "key": "sources.reproducibility_status",
+      "literal_index": 50,
+      "resolution": "Use higher-priority frozen ru-release-v1 article and reproducibility release documentation. The live UI retains an outdated pre-release sentence. No Russian artifact is modified.",
+      "source": "en-secondary-DtF0SZI2.js"
+    }
+  ],
+  "literal_mappings": [
+    {
+      "key": "figure.abc.title",
+      "literal_index": 0,
+      "russian": "Исходные доли и сценарии A/B/C",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.context.title",
+      "literal_index": 1,
+      "russian": "Структура основной базы УИК",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.cedar.default.title",
+      "literal_index": 2,
+      "russian": "Cedar: наблюдаемые и ожидаемые голоса",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.cedar.sensitivity.title",
+      "literal_index": 3,
+      "russian": "Cedar: чувствительность к выбору опоры",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.istories.title",
+      "literal_index": 4,
+      "russian": "Реконструкция подхода «Важных историй»",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.novaya_1d.title",
+      "literal_index": 5,
+      "russian": "Одномерная модель: гистограмма и три компоненты",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.novaya_2d.title",
+      "literal_index": 6,
+      "russian": "Двумерная модель: плотность и геометрия компонент",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.d.title",
+      "literal_index": 7,
+      "russian": "Сравнение вариантов D0–D4",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.unavailable",
+      "literal_index": 8,
+      "russian": "График недоступен.",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.lazy_notice",
+      "literal_index": 9,
+      "russian": "График загрузится при чтении этого раздела.",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.retry_notice",
+      "literal_index": 10,
+      "russian": "График недоступен. Попробуйте открыть страницу ещё раз.",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.variant",
+      "literal_index": 11,
+      "russian": "Вариант расчёта",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.loading",
+      "literal_index": 12,
+      "russian": "Загружаем опубликованный график…",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "figure.novaya_1d.caption",
+      "literal_index": 13,
+      "russian": "Гистограмма показывает массу голосов фокальной партии, а не число УИК. Показаны три подогнанные компоненты; выделена компонента с самым низким центром по зафиксированному правилу проекта.",
+      "source": "en-article-figure-BpmgW33q.js"
+    },
+    {
+      "key": "error.chart_contract",
+      "literal_index": 0,
+      "russian": "Контракт графиков не соответствует зафиксированной публикации.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.chart_not_published",
+      "literal_index": 1,
+      "russian": "Этот график не опубликован.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.chart_structure",
+      "literal_index": 2,
+      "russian": "Структура опубликованного графика не соответствует контракту.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.chart_load_prefix",
+      "literal_index": 3,
+      "russian": "График не загружен: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.loading",
+      "literal_index": 4,
+      "russian": "Загружаем опубликованный график…",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.specification_unavailable",
+      "literal_index": 5,
+      "russian": "Для этой спецификации график в зафиксированном выпуске не опубликован. Численный результат выше относится к выбранному варианту.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.vote_count",
+      "literal_index": 6,
+      "russian": "Число голосов",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "unit.million_short",
+      "literal_index": 7,
+      "russian": " млн",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "unit.thousand_short",
+      "literal_index": 8,
+      "russian": " тыс",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.issued_registered",
+      "literal_index": 9,
+      "russian": "Выдано бюллетеней / зарегистрированные избиратели",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.observed_focal",
+      "literal_index": 10,
+      "russian": "Наблюдаемые · ЕР",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.other_parties",
+      "literal_index": 11,
+      "russian": "Остальные партии",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.expected_reference",
+      "literal_index": 12,
+      "russian": "Ожидаемые по опоре",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.reference_prefix",
+      "literal_index": 13,
+      "russian": "Выделена опора ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.reference_suffix",
+      "literal_index": 14,
+      "russian": " УИК. Правая граница не включена. Кривая взята из опубликованного варианта.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.window_unavailable",
+      "literal_index": 15,
+      "russian": "График для выбранного диапазона не опубликован.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.cedar_cast_registered",
+      "literal_index": 16,
+      "russian": "Поданные бюллетени (действительные + известные недействительные) / избиратели",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.cedar_expected",
+      "literal_index": 17,
+      "russian": "Ожидаемые · опора 43–44%",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.cedar_default.caption",
+      "literal_index": 18,
+      "russian": "Автоматическая опора: 43–44%. Модельный остаток — это не доля партии.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.cedar_residual",
+      "literal_index": 19,
+      "russian": "Модельный остаток, %",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.right_edge_prefix",
+      "literal_index": 20,
+      "russian": "Правая граница: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.anchor_count_suffix",
+      "literal_index": 21,
+      "russian": " УИК в опоре",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.cedar_sensitivity.caption",
+      "literal_index": 22,
+      "russian": "Правая граница опорного интервала. Линия связывает опубликованные фиксированные варианты; это чувствительность к спецификации, не доверительный интервал и не диапазон истинного результата.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.focal_valid_share",
+      "literal_index": 23,
+      "russian": "Доля «Единой России» среди действительных голосов",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "axis.histogram_relative_mass",
+      "literal_index": 24,
+      "russian": "Объём голосов · относительно максимума гистограммы",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.histogram",
+      "literal_index": 25,
+      "russian": "Гистограмма",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.component_sum",
+      "literal_index": 26,
+      "russian": "Сумма компонент",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.component_1",
+      "literal_index": 27,
+      "russian": "Компонента 1 · самое низкое среднее",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.component_2",
+      "literal_index": 28,
+      "russian": "Компонента 2",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.component_3",
+      "literal_index": 29,
+      "russian": "Компонента 3",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.centers_prefix",
+      "literal_index": 30,
+      "russian": "Центры компонент: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.centers_suffix",
+      "literal_index": 31,
+      "russian": ". Выделена компонента с самым низким средним результатом. Все кривые опубликованы заранее; новая подгонка не выполняется.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.selected_component",
+      "literal_index": 32,
+      "russian": "Выбранная компонента",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.other_components",
+      "literal_index": 33,
+      "russian": "Другие компоненты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.core_selection",
+      "literal_index": 34,
+      "russian": "Выделена компонента с самым низким средним результатом партии",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.density.title",
+      "literal_index": 35,
+      "russian": "Плотность участков в опубликованных ячейках",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.density.tooltip",
+      "literal_index": 36,
+      "russian": "${l(o.cell[2])} УИК · ${l(o.cell[3])} избирателей · ${l(o.cell[4])} действительных голосов",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.density.color",
+      "literal_index": 37,
+      "russian": "Интенсивность цвета показывает число УИК в ячейке",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.density.resolution",
+      "literal_index": 38,
+      "russian": "Размер ячейки: 0.5 × 0.5 п.п.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.density.nonclaim",
+      "literal_index": 39,
+      "russian": "Цвет не является оценкой аномальности или нарушений",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.novaya_2d.caption",
+      "literal_index": 40,
+      "russian": "Эллипсы показывают геометрию подогнанных статистических компонент: опубликованные центры и ковариации. Это не границы честных или фальсифицированных участков, не области апостериорной принадлежности и не вероятность честности. Раскраска принадлежности недоступна: индивидуальные значения не сохранены. Изменение порога меняет агрегат выше, а не эту геометрию.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.fit_unavailable",
+      "literal_index": 41,
+      "russian": "График для этой подгонки не опубликован.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.cedar_sensitivity.question",
+      "literal_index": 42,
+      "russian": "Как выбор опоры меняет модельный остаток?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "value.undefined",
+      "literal_index": 43,
+      "russian": "не определено",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.abc.title",
+      "literal_index": 44,
+      "russian": "Наблюдаемые и сценарные доли всех десяти партий",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.baseline.title",
+      "literal_index": 45,
+      "russian": "Наблюдаемые доли всех десяти партий",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.observed",
+      "literal_index": 46,
+      "russian": "Наблюдаемые",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "legend.scenario",
+      "literal_index": 47,
+      "russian": "Сценарий",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.valid_share_prefix",
+      "literal_index": 48,
+      "russian": "Доли среди действительных голосов. ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.scope_full",
+      "literal_index": 49,
+      "russian": "Весь исходный массив; вне опоры значения сохранены.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.scope_native",
+      "literal_index": 50,
+      "russian": "Только участки в области применимости сценария.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "chart.scope_primary",
+      "literal_index": 51,
+      "russian": "Бумажные участки в зафиксированном массиве. ДЭГ не включён.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.paper_uiks",
+      "literal_index": 52,
+      "russian": "бумажных УИК",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.regions",
+      "literal_index": 53,
+      "russian": "региона",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.valid_votes",
+      "literal_index": 54,
+      "russian": "действительных голосов",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.applicable_uiks",
+      "literal_index": 55,
+      "russian": "УИК в области применимости",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.support_regions",
+      "literal_index": 56,
+      "russian": "регионов в опоре",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.source_uiks",
+      "literal_index": 57,
+      "russian": "УИК в исходном массиве",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.target_uiks",
+      "literal_index": 58,
+      "russian": "целевых УИК",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.supported_targets",
+      "literal_index": 59,
+      "russian": "целевых УИК с опорой",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.calculated_uiks",
+      "literal_index": 60,
+      "russian": "УИК в расчёте",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.calculated_valid",
+      "literal_index": 61,
+      "russian": "действительных голосов в области расчёта",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.calculated_registered",
+      "literal_index": 62,
+      "russian": "избирателей в области расчёта",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.reference_window_uiks",
+      "literal_index": 63,
+      "russian": "УИК в опорном диапазоне",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.reference_interval_uiks",
+      "literal_index": 64,
+      "russian": "УИК в опорном интервале",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.outside_uiks",
+      "literal_index": 65,
+      "russian": "УИК вне области применимости",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.undefined_groups",
+      "literal_index": 66,
+      "russian": "групп с неопределённым результатом",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.excluded_prefix",
+      "literal_index": 67,
+      "russian": "Вне расчёта: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.invalid_unknown_suffix",
+      "literal_index": 68,
+      "russian": " УИК с неизвестным числом недействительных бюллетеней; ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "coverage.registered_le_100_suffix",
+      "literal_index": 69,
+      "russian": " УИК с числом избирателей не более 100.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.same_scope_notice",
+      "literal_index": 70,
+      "russian": "Одна область и одна шкала. Показаны опубликованные значения выбранного сценария.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.d.share_prefix",
+      "literal_index": 71,
+      "russian": "Условная доля «Единой России» · ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.scope_full",
+      "literal_index": 72,
+      "russian": "весь массив",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.scope_native",
+      "literal_index": 73,
+      "russian": "область применимости",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.observed_same_scope_prefix",
+      "literal_index": 74,
+      "russian": "Наблюдаемая доля на той же области: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.istories.share",
+      "literal_index": 75,
+      "russian": "Сценарная доля «Единой России» среди действительных голосов",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.reference_window_prefix",
+      "literal_index": 76,
+      "russian": "Опорный диапазон: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.reference_window_suffix",
+      "literal_index": 77,
+      "russian": "%. Правая граница не включена.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.cedar.residual",
+      "literal_index": 78,
+      "russian": "Модельный остаток относительно наблюдаемых голосов фокальной партии",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.cedar.not_share",
+      "literal_index": 79,
+      "russian": "Это не доля партии.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.reference_interval_prefix",
+      "literal_index": 80,
+      "russian": " Опорный интервал: ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.novaya_1d.center",
+      "literal_index": 81,
+      "russian": "Центр компоненты с самым низким средним результатом",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.novaya_1d.coordinate",
+      "literal_index": 82,
+      "russian": "Координата по доле «Единой России».",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.novaya_2d.focal_center",
+      "literal_index": 83,
+      "russian": "Центр: доля «Единой России»",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.novaya_2d.issued_center",
+      "literal_index": 84,
+      "russian": "Центр: выдано бюллетеней / избиратели",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.novaya_2d.membership",
+      "literal_index": 85,
+      "russian": "Принадлежность к компоненте",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "unit.uik",
+      "literal_index": 86,
+      "russian": "УИК",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.threshold_prefix",
+      "literal_index": 87,
+      "russian": "При пороге > ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.electorate_suffix",
+      "literal_index": 88,
+      "russian": " избирателей на этих участках.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.result_type",
+      "literal_index": 89,
+      "russian": "Тип результата недоступен для отображения.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.state_unavailable",
+      "literal_index": 90,
+      "russian": "Этот вариант недоступен.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.state_unavailable_preserved",
+      "literal_index": 91,
+      "russian": "Этот вариант недоступен. Остальные допущения не изменены.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "share.copied",
+      "literal_index": 92,
+      "russian": "Ссылка скопирована.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "scenario.choose",
+      "literal_index": 93,
+      "russian": "Выбрать опубликованный сценарий",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.change_question",
+      "literal_index": 94,
+      "russian": "Что меняем?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.distribution",
+      "literal_index": 95,
+      "russian": "Распределение голосов между партиями",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.volume",
+      "literal_index": 96,
+      "russian": "Общий объём связанных счётчиков",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.both",
+      "literal_index": 97,
+      "russian": "И распределение, и общий объём",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.mode_notice",
+      "literal_index": 98,
+      "russian": "При смене режима сила устанавливается на полную. Далее её можно уменьшить.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.lambda",
+      "literal_index": 99,
+      "russian": "Сила изменения распределения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.mu",
+      "literal_index": 100,
+      "russian": "Сила изменения общего объёма",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.abc.levels",
+      "literal_index": 101,
+      "russian": "Только пять зафиксированных уровней: 0%, 25%, 50%, 75% и 100%.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.istories.window",
+      "literal_index": 102,
+      "russian": "Опорный диапазон участия",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.window_edge_suffix",
+      "literal_index": 103,
+      "russian": "% · правая граница не включена",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.selection",
+      "literal_index": 104,
+      "russian": "Выбор опорного интервала",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.auto",
+      "literal_index": 105,
+      "russian": "AUTO · автоматический выбор",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.minus5",
+      "literal_index": 106,
+      "russian": "AUTO−5 · пять интервалов ниже",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.plus5",
+      "literal_index": 107,
+      "russian": "AUTO+5 · пять интервалов выше",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.fixed",
+      "literal_index": 108,
+      "russian": "Фиксированный интервал",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_1d.width",
+      "literal_index": 109,
+      "russian": "Ширина интервала гистограммы",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_1d.coupling",
+      "literal_index": 110,
+      "russian": "Число компонент фиксировано: 3. Ширина интервала и связанный нижний предел ширины компоненты меняются согласно опубликованной спецификации.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_2d.threshold",
+      "literal_index": 111,
+      "russian": "Порог принадлежности к компоненте",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_2d.fit_reuse",
+      "literal_index": 112,
+      "russian": "Меняется состав участков; центр той же подгонки остаётся прежним.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.d.variant",
+      "literal_index": 113,
+      "russian": "Вариант сравнения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_2d.covariance",
+      "literal_index": 114,
+      "russian": "Структура ковариации · отдельная спецификация",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_2d.full",
+      "literal_index": 115,
+      "russian": "Полная: связанные координаты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.novaya_2d.diagonal",
+      "literal_index": 116,
+      "russian": "Диагональная: отдельные координаты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.right_edge",
+      "literal_index": 117,
+      "russian": "Фиксированная правая граница опорного интервала",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.cedar.automatic_mode",
+      "literal_index": 118,
+      "russian": "Автоматический режим",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.scope_question",
+      "literal_index": 119,
+      "russian": "Где показывать результат?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.scope_full",
+      "literal_index": 120,
+      "russian": "Вся база",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.scope_native",
+      "literal_index": 121,
+      "russian": "На участках, где сценарий определён",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.native_notice",
+      "literal_index": 122,
+      "russian": "Показана только область применимости. Сам сценарий не изменён.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.full_notice",
+      "literal_index": 123,
+      "russian": "Показан весь массив с сохранением исходных значений вне опоры. Сам сценарий не изменён.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.loo",
+      "literal_index": 124,
+      "russian": "Исключить из расчёта один регион",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.loo_none",
+      "literal_index": 125,
+      "russian": "Не исключать регион",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.scope_guard",
+      "literal_index": 126,
+      "russian": "На всей базе вне опоры сохраняются исходные значения. Это не означает нулевой эффект вне опоры. Недоступные сочетания отключены. Исключение региона проверяет его влияние на результат.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.additional",
+      "literal_index": 127,
+      "russian": "Дополнительные допущения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "changes.heading",
+      "literal_index": 128,
+      "russian": "Что изменилось?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "home.title",
+      "literal_index": 129,
+      "russian": "Данные одни. Допущения разные",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "home.question",
+      "literal_index": 130,
+      "russian": "Как меняется ответ, когда меняются правила расчёта?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "home.intro",
+      "literal_index": 131,
+      "russian": "Начните с наблюдаемых результатов и попробуйте рассчитанные сценарии",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "nav.back_observed",
+      "literal_index": 132,
+      "russian": "← Наблюдаемые результаты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "baseline.data",
+      "literal_index": 133,
+      "russian": "Исходные данные",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "baseline.observed",
+      "literal_index": 134,
+      "russian": "Наблюдаемые результаты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "baseline.original",
+      "literal_index": 135,
+      "russian": "Исходные результаты",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.open_data",
+      "literal_index": 136,
+      "russian": "Не удалось открыть данные",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.back_observed",
+      "literal_index": 137,
+      "russian": "Вернуться к наблюдаемым результатам",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.retry",
+      "literal_index": 138,
+      "russian": "Повторить загрузку",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "loading.scenario",
+      "literal_index": 139,
+      "russian": "Загружаем выбранный опубликованный вариант…",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "loading.baseline",
+      "literal_index": 140,
+      "russian": "Загружаем наблюдаемые результаты…",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.not_party_share_prefix",
+      "literal_index": 141,
+      "russian": "Это не доля партии. ",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "action.change_assumptions",
+      "literal_index": 142,
+      "russian": "Изменить допущения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "result.limitations_fallback",
+      "literal_index": 143,
+      "russian": "Ограничения выбранного варианта приведены в публикации данных.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "action.copy_link",
+      "literal_index": 144,
+      "russian": "Скопировать ссылку",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "action.about_method",
+      "literal_index": 145,
+      "russian": "О методе",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.assumptions",
+      "literal_index": 146,
+      "russian": "Допущения выбранного сценария",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.method",
+      "literal_index": 147,
+      "russian": "Выбор метода",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.other_methods",
+      "literal_index": 148,
+      "russian": "Другие методы",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.question",
+      "literal_index": 149,
+      "russian": "Что получится при других правилах расчёта?",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.choose",
+      "literal_index": 150,
+      "russian": "Выберите один из вариантов ниже.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.assumptions_short",
+      "literal_index": 151,
+      "russian": "Допущения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "action.close",
+      "literal_index": 152,
+      "russian": "Закрыть",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "panel.selection_notice",
+      "literal_index": 153,
+      "russian": "После выбора результат обновится, а панель закроется.",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.strength_zero",
+      "literal_index": 154,
+      "russian": "0% · без изменения",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "controls.strength_full",
+      "literal_index": 155,
+      "russian": "100% · полная сила",
+      "source": "en-explorer-4PngxoOv.js"
+    },
+    {
+      "key": "error.publication_resource",
+      "literal_index": 0,
+      "russian": "Неподдерживаемый ресурс публикации.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "error.publication_read",
+      "literal_index": 1,
+      "russian": "Не удалось прочитать опубликованные данные. Попробуйте ещё раз.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "error.publication_hash",
+      "literal_index": 2,
+      "russian": "Данные отличаются от зафиксированной версии публикации.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "error.publication_structure",
+      "literal_index": 3,
+      "russian": "Структура публикации не соответствует ожидаемому контракту.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "error.variant_unavailable",
+      "literal_index": 4,
+      "russian": "Этот вариант недоступен.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.rodina",
+      "literal_index": 5,
+      "russian": "Родина",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.er",
+      "literal_index": 6,
+      "russian": "Единая Россия",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.kprf",
+      "literal_index": 7,
+      "russian": "КПРФ",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.pensioners",
+      "literal_index": 8,
+      "russian": "Партия пенсионеров",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.new_people",
+      "literal_index": 9,
+      "russian": "Новые люди",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.direct_democracy",
+      "literal_index": 10,
+      "russian": "Партия прямой демократии",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.greens",
+      "literal_index": 11,
+      "russian": "Зелёные",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.communists_russia",
+      "literal_index": 12,
+      "russian": "Коммунисты России",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.ldpr",
+      "literal_index": 13,
+      "russian": "ЛДПР",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "party.sr",
+      "literal_index": 14,
+      "russian": "Справедливая Россия — За правду",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.abc.name",
+      "literal_index": 15,
+      "russian": "Локальное сравнение A/B/C",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.abc.short",
+      "literal_index": 16,
+      "russian": "Распределение голосов и общий объём",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.abc.kind",
+      "literal_index": 17,
+      "russian": "Сценарии проекта",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.abc.meaning",
+      "literal_index": 18,
+      "russian": "Условные доли десяти партий при выбранных правилах локального сравнения участков.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.abc.guard",
+      "literal_index": 19,
+      "russian": "За пределами опоры исходные значения сохранены по правилу сценария. Это не свидетельство отсутствия эффекта на этих участках.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.vazhnye_istorii.name",
+      "literal_index": 20,
+      "russian": "«Важные истории»",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.vazhnye_istorii.short",
+      "literal_index": 21,
+      "russian": "Сценарная доля по опорному диапазону",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.vazhnye_istorii.kind",
+      "literal_index": 22,
+      "russian": "Реконструкция",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.vazhnye_istorii.meaning",
+      "literal_index": 23,
+      "russian": "Доля «Единой России» среди действительных голосов в сценарии с выбранным опорным диапазоном.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.vazhnye_istorii.guard",
+      "literal_index": 24,
+      "russian": "Реконструкция опубликованной идеи, а не точное повторение авторского расчёта. Различия между диапазонами — чувствительность к допущениям, не доверительный интервал.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.cedar.short",
+      "literal_index": 25,
+      "russian": "Модельный остаток относительно голосов",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.cedar.kind",
+      "literal_index": 26,
+      "russian": "Адаптация",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.cedar.meaning",
+      "literal_index": 27,
+      "russian": "Знаковый модельный остаток относительно наблюдаемых голосов «Единой России» в области применимости.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.cedar.guard",
+      "literal_index": 28,
+      "russian": "Это не доля партии. Изменение опорного интервала показывает чувствительность спецификации, а не доверительный интервал.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_1d.name",
+      "literal_index": 29,
+      "russian": "«Новая газета» · 1D",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_1d.short",
+      "literal_index": 30,
+      "russian": "Центр компоненты одномерной модели",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_1d.meaning",
+      "literal_index": 31,
+      "russian": "Центр компоненты с самым низким средним результатом в одномерной модели распределения доли «Единой России».",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_1d.guard",
+      "literal_index": 32,
+      "russian": "Центр статистической компоненты не является автоматически восстановленной общенациональной долей. Название «честное ядро» относится к интерпретации источника, а не к прямому выводу модели.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_2d.name",
+      "literal_index": 33,
+      "russian": "«Новая газета» · 2D",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_2d.short",
+      "literal_index": 34,
+      "russian": "Центр компоненты и состав участков",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_2d.meaning",
+      "literal_index": 35,
+      "russian": "Центр компоненты двумерной модели: выдача бюллетеней относительно числа избирателей и доля «Единой России».",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.novaya_2d.guard",
+      "literal_index": 36,
+      "russian": "Принадлежность к компоненте — не вероятность честности или фальсификации участка. Порог меняет состав участков, но не центр той же подгонки.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.d.name",
+      "literal_index": 37,
+      "russian": "D · Партия против остальных",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.d.short",
+      "literal_index": 38,
+      "russian": "Условный сценарий для одной партии",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.d.kind",
+      "literal_index": 39,
+      "russian": "Сценарий проекта",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.d.meaning",
+      "literal_index": 40,
+      "russian": "Условная доля «Единой России» в сценарии «партия против остальных». Это свойство выбранной реализации метода.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "method.d.guard",
+      "literal_index": 41,
+      "russian": "Проектный сценарий, а не улучшенная или исправленная версия другого метода. Для групп вне области применимости результат не определён.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "variant.D0",
+      "literal_index": 42,
+      "russian": "Базовый региональный вариант",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "variant.D1",
+      "literal_index": 43,
+      "russian": "Меньшая опорная группа",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "variant.D2",
+      "literal_index": 44,
+      "russian": "Большая опорная группа",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "variant.D3",
+      "literal_index": 45,
+      "russian": "Более широкие интервалы",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "variant.D4",
+      "literal_index": 46,
+      "russian": "Сравнение внутри ТИК",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "bin_width.half",
+      "literal_index": 47,
+      "russian": "0,5 п.п.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "bin_width.one",
+      "literal_index": 48,
+      "russian": "1 п.п.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "bin_width.two",
+      "literal_index": 49,
+      "russian": "2 п.п.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "result.undefined",
+      "literal_index": 50,
+      "russian": "не определено",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.zero",
+      "literal_index": 51,
+      "russian": "Сила обоих изменений равна нулю. Сценарий выбран.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.distribution_only",
+      "literal_index": 52,
+      "russian": "Изменено только распределение голосов. Общий объём сохранён.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.volume_only",
+      "literal_index": 53,
+      "russian": "Изменён только общий объём связанных счётчиков.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.both",
+      "literal_index": 54,
+      "russian": "Изменены распределение голосов и общий объём связанных счётчиков.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.method",
+      "literal_index": 55,
+      "russian": "Открыт опубликованный вариант выбранного метода.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.lambda",
+      "literal_index": 56,
+      "russian": "Сила изменения распределения: ${n.lambda_quarters*25}% → ${i.lambda_quarters*25}%.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.mu",
+      "literal_index": 57,
+      "russian": "Сила изменения объёма: ${n.mu_quarters*25}% → ${i.mu_quarters*25}%.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.window",
+      "literal_index": 58,
+      "russian": "Опорный диапазон: ${n.reference_window_percent?.join(",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.window_edge_note",
+      "literal_index": 59,
+      "russian": ")}% (правая граница не включена).",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.threshold",
+      "literal_index": 60,
+      "russian": "Порог принадлежности: ${g[n.membership_threshold]} → ${g[i.membership_threshold]}. Параметры самой подгонки не менялись.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.covariance",
+      "literal_index": 61,
+      "russian": "Изменена структура ковариации: отдельная спецификация модели.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.bin_width",
+      "literal_index": 62,
+      "russian": "Ширина интервала: ${h[n.bin_width]} → ${h[i.bin_width]}.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.variant",
+      "literal_index": 63,
+      "russian": "Вариант: ${m[i.specification]}.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.cedar_anchor",
+      "literal_index": 64,
+      "russian": "Изменён опорный интервал Cedar.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.abc_design",
+      "literal_index": 65,
+      "russian": "Изменены правила отбора участков локального сравнения.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.source",
+      "literal_index": 66,
+      "russian": "Выбрана другая сохранённая версия исходных данных.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.excluded_region",
+      "literal_index": 67,
+      "russian": "Исключён один регион: ${n.official_regions.find(e=>e.official_region_id===i)?.name||",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.region_influence_note",
+      "literal_index": 68,
+      "russian": "}. Это проверка влияния региона.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.region_restored",
+      "literal_index": 69,
+      "russian": "Возвращён расчёт без исключения региона.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "changes.other_unchanged",
+      "literal_index": 70,
+      "russian": "Остальные допущения не изменились.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "unit.delta_below_001",
+      "literal_index": 71,
+      "russian": "<0,01 п.п.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "unit.pp_suffix",
+      "literal_index": 72,
+      "russian": " п.п.",
+      "source": "en-publication-0LIYyF6j.js"
+    },
+    {
+      "key": "card.abc.origin",
+      "literal_index": 0,
+      "russian": "Это сценарий исследовательского проекта, а не реконструкция внешнего метода.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.abc.implementation",
+      "literal_index": 1,
+      "russian": "Опубликованы локальные сценарии для всех десяти партий с отдельными изменениями распределения и общего объёма счётчиков.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.abc.limitations",
+      "literal_index": 2,
+      "russian": "За пределами опоры сохраняются исходные значения. Это правило продолжения сценария, а не свидетельство отсутствия эффекта.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.d.implementation",
+      "literal_index": 3,
+      "russian": "Опубликованы пять вариантов сравнения для одной фокальной партии — «Единой России».",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.d.limitations",
+      "literal_index": 4,
+      "russian": "Результат условен относительно выбранного сравнения. Отдельные группы могут не иметь определённого результата.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.cedar.origin",
+      "literal_index": 5,
+      "russian": "Публичный подход связывает наблюдаемые голоса с пропорциональным ожиданием по опорному интервалу.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.cedar.implementation",
+      "literal_index": 6,
+      "russian": "В проекте задана явная спецификация выбора опоры и опубликован модельный остаток.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.cedar.limitations",
+      "literal_index": 7,
+      "russian": "Опора в публичном описании не задана однозначно; алгоритм ручной региональной применимости и исходная нормализация недоступны. Это адаптация.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.vazhnye_istorii.origin",
+      "literal_index": 8,
+      "russian": "Публичный подход использует опорный диапазон участия для сценарного сопоставления голосов фокальной и остальных партий.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.vazhnye_istorii.implementation",
+      "literal_index": 9,
+      "russian": "Опубликованы явные варианты опорного диапазона и сценарная доля среди действительных голосов.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.vazhnye_istorii.limitations",
+      "literal_index": 10,
+      "russian": "Код публичной реализации, точная оценочная процедура и сопоставление исходного поля участия не опубликованы. Снимки данных и обработка Москвы различаются.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_1d.origin",
+      "literal_index": 11,
+      "russian": "Публичный подход рассматривает одномерное распределение доли фокальной партии через компоненты модели.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_1d.implementation",
+      "literal_index": 12,
+      "russian": "Зафиксирована модель из трёх компонент; результат — центр компоненты с самым низким средним.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_1d.limitations",
+      "literal_index": 13,
+      "russian": "Исходная таблица Datawrapper, авторская целевая функция, интервалы и численная область неизвестны; исходная реализация недоступна. Точная историческая репликация не заявляется.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_2d.origin",
+      "literal_index": 14,
+      "russian": "Публичный подход рассматривает компоненты в двумерном пространстве участия и доли фокальной партии.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_2d.implementation",
+      "literal_index": 15,
+      "russian": "Опубликованы центр выбранной компоненты и агрегированный состав участков при фиксированных порогах.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_2d.limitations",
+      "literal_index": 16,
+      "russian": "Отдельный публичный код и данные, исходные ковариации, масштабирование, веса и инициализация неизвестны. Состав массива и определения участия различаются; точная историческая репликация не заявляется.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_conventional.origin",
+      "literal_index": 17,
+      "russian": "Опубликовано описание обычной конструкции Шпилькина.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.card_only.implementation",
+      "literal_index": 18,
+      "russian": "Подход представлен только справочной карточкой. Исполнимой реконструкции нет.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_conventional.limitations",
+      "literal_index": 19,
+      "russian": "Референс, масштабирование, состав массива и ядро описаны недостаточно для точного воспроизведения.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_overlap_core.origin",
+      "literal_index": 20,
+      "russian": "Опубликовано описание пересечения распределений и выделения ядра.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "card.novaya_overlap_core.limitations",
+      "literal_index": 21,
+      "russian": "Точная оценка пересечения, маска ядра и маска исключённых регионов неизвестны.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.loading",
+      "literal_index": 22,
+      "russian": "Загружаем каталог методов…",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.card_only",
+      "literal_index": 23,
+      "russian": "Справочная карточка",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.approach",
+      "literal_index": 24,
+      "russian": "Что это за подход",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.published",
+      "literal_index": 25,
+      "russian": "Что было опубликовано",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.project",
+      "literal_index": 26,
+      "russian": "Что сделано в проекте",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.output",
+      "literal_index": 27,
+      "russian": "Что показывает результат",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.no_result",
+      "literal_index": 28,
+      "russian": "Численного результата проекта нет.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.limitations",
+      "literal_index": 29,
+      "russian": "Ограничения",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.open",
+      "literal_index": 30,
+      "russian": "Открыть вариант",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "methods.source",
+      "literal_index": 31,
+      "russian": "Источник",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.frame",
+      "literal_index": 32,
+      "russian": "Зафиксированный массив",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.static_notice",
+      "literal_index": 33,
+      "russian": "Сайт читает опубликованные результаты напрямую из статического слоя данных. Сценарии уже рассчитаны; новые вычисления здесь не выполняются.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.paper_uiks",
+      "literal_index": 34,
+      "russian": "бумажных УИК",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.regions",
+      "literal_index": 35,
+      "russian": "региона",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.tiks",
+      "literal_index": 36,
+      "russian": "ТИК",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.scope_notice",
+      "literal_index": 37,
+      "russian": "ДЭГ не включён. Зарубежные участки выделены отдельно.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.publication",
+      "literal_index": 38,
+      "russian": "Слой публикации",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.manifest",
+      "literal_index": 39,
+      "russian": "Манифест и контрольные суммы",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.contract",
+      "literal_index": 40,
+      "russian": "Контракт чтения данных",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.baseline_json",
+      "literal_index": 41,
+      "russian": "Наблюдаемые результаты · JSON",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.versions",
+      "literal_index": 42,
+      "russian": "Версии исходных данных",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.versions_notice",
+      "literal_index": 43,
+      "russian": "Сохранённые варианты состава участков и исходных значений. Эти версии не являются рейтингом качества источников.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.uik_count_suffix",
+      "literal_index": 44,
+      "russian": " УИК · ",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.region_count_suffix",
+      "literal_index": 45,
+      "russian": " региона · ",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.tik_count_suffix",
+      "literal_index": 46,
+      "russian": " ТИК",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.provenance",
+      "literal_index": 47,
+      "russian": "Снимки, версии и указатели происхождения",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.path_notice",
+      "literal_index": 48,
+      "russian": "Указатели путей внутри исследовательского проекта — метаданные происхождения, а не доступные файлы этого сайта.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.reproducibility",
+      "literal_index": 49,
+      "russian": "Воспроизводимость",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.reproducibility_status",
+      "literal_index": 50,
+      "russian": "Текущий репозиторий содержит выпуск слоя публикации и данных. Это ещё не окончательный полный выпуск материалов для воспроизведения исследования.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.exact_notice",
+      "literal_index": 51,
+      "russian": "Указатели точных данных сценариев доступны в каталоге публикации. При обычном просмотре эти файлы не загружаются.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "license.heading",
+      "literal_index": 52,
+      "russian": "Лицензии",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "license.summary",
+      "literal_index": 53,
+      "russian": "Авторский код проекта — MIT. Тексты, визуализации и созданные проектом производные материалы — CC BY 4.0. Сторонние материалы сохраняют условия своих источников.",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "license.policy_link",
+      "literal_index": 54,
+      "russian": "Лицензионная политика ↗",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "license.third_party_link",
+      "literal_index": 55,
+      "russian": "Сторонние материалы и исключения ↗",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.methods",
+      "literal_index": 56,
+      "russian": "Опубликованные методы",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.methods_link_prefix",
+      "literal_index": 57,
+      "russian": "Ссылки на внешние источники, статус реконструкции и ограничения приведены на ",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "sources.methods_link_label",
+      "literal_index": 58,
+      "russian": "странице методов",
+      "source": "en-secondary-DtF0SZI2.js"
+    },
+    {
+      "key": "nav.scenarios",
+      "literal_index": 0,
+      "russian": "Сценарии",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "nav.article",
+      "literal_index": 1,
+      "russian": "Статья",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "nav.methods",
+      "literal_index": 2,
+      "russian": "Методы",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "nav.sources",
+      "literal_index": 3,
+      "russian": "Источники",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "brand.uppercase",
+      "literal_index": 4,
+      "russian": "ДАННЫЕ И ДОПУЩЕНИЯ",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "nav.primary_label",
+      "literal_index": 5,
+      "russian": "Основная навигация",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "footer.description",
+      "literal_index": 6,
+      "russian": "Один массив данных. Разные вопросы и правила расчёта.",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "nav.footer_label",
+      "literal_index": 7,
+      "russian": "Навигация в подвале",
+      "source": "en-shell-PO_CK5aG.js"
+    },
+    {
+      "key": "region.2220fe28-9406-4756-b6ed-88bdd9d1001a",
+      "official_region_id": "2220fe28-9406-4756-b6ed-88bdd9d1001a",
+      "russian": "Республика Адыгея (Адыгея)",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.754de982-d944-44ac-93af-a2bc7acad9b5",
+      "official_region_id": "754de982-d944-44ac-93af-a2bc7acad9b5",
+      "russian": "Республика Алтай",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.d21bee7f-4eb5-4c08-8655-3f77a4ed0ed6",
+      "official_region_id": "d21bee7f-4eb5-4c08-8655-3f77a4ed0ed6",
+      "russian": "Республика Башкортостан",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.daa18ce6-c139-46e0-b0d1-5598d89359da",
+      "official_region_id": "daa18ce6-c139-46e0-b0d1-5598d89359da",
+      "russian": "Республика Бурятия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.bdde5817-0966-4156-8706-91074183a966",
+      "official_region_id": "bdde5817-0966-4156-8706-91074183a966",
+      "russian": "Республика Дагестан",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.51664788-55e9-4ad1-8d73-712b81c4b969",
+      "official_region_id": "51664788-55e9-4ad1-8d73-712b81c4b969",
+      "russian": "Республика Ингушетия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.40bf9539-8416-465d-a1f0-a1115e22f362",
+      "official_region_id": "40bf9539-8416-465d-a1f0-a1115e22f362",
+      "russian": "Кабардино-Балкарская Республика",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.1fa0bf17-6f14-41fe-9ecd-ed577af01337",
+      "official_region_id": "1fa0bf17-6f14-41fe-9ecd-ed577af01337",
+      "russian": "Республика Калмыкия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.dd163be9-a1c0-4496-8d1e-fd229bc77ff3",
+      "official_region_id": "dd163be9-a1c0-4496-8d1e-fd229bc77ff3",
+      "russian": "Карачаево-Черкесская Республика",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.4c906971-229e-45b0-bc8d-e8f125ca6151",
+      "official_region_id": "4c906971-229e-45b0-bc8d-e8f125ca6151",
+      "russian": "Республика Карелия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.f211806c-bef8-44c8-a442-985668c252ae",
+      "official_region_id": "f211806c-bef8-44c8-a442-985668c252ae",
+      "russian": "Республика Коми",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.1d9f3732-349f-47dc-b6ef-d4ef2c0e1eda",
+      "official_region_id": "1d9f3732-349f-47dc-b6ef-d4ef2c0e1eda",
+      "russian": "Республика Марий Эл",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.d2e6768f-9d1d-4099-87da-c5085b88306b",
+      "official_region_id": "d2e6768f-9d1d-4099-87da-c5085b88306b",
+      "russian": "Республика Мордовия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.38f41532-d801-48e9-be4c-eb77c4f3b7b0",
+      "official_region_id": "38f41532-d801-48e9-be4c-eb77c4f3b7b0",
+      "russian": "Республика Саха (Якутия)",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.4cdecd9d-38d1-4e88-8717-644fba70b705",
+      "official_region_id": "4cdecd9d-38d1-4e88-8717-644fba70b705",
+      "russian": "Республика Северная Осетия - Алания",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.d31e0004-3eb2-4bec-8c64-1b3a4e4b6798",
+      "official_region_id": "d31e0004-3eb2-4bec-8c64-1b3a4e4b6798",
+      "russian": "Республика Татарстан (Татарстан)",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.48abb372-a8c3-46b7-9a35-6de9e2998588",
+      "official_region_id": "48abb372-a8c3-46b7-9a35-6de9e2998588",
+      "russian": "Республика Тыва",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.2d2b3056-00b3-422d-aee7-bbc7872b5889",
+      "official_region_id": "2d2b3056-00b3-422d-aee7-bbc7872b5889",
+      "russian": "Удмуртская Республика",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.460bde04-6429-4cbe-be6c-74b9e3fb304c",
+      "official_region_id": "460bde04-6429-4cbe-be6c-74b9e3fb304c",
+      "russian": "Республика Хакасия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.b453ae90-a074-4d1e-af87-7bb783815d05",
+      "official_region_id": "b453ae90-a074-4d1e-af87-7bb783815d05",
+      "russian": "Чеченская Республика",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.bc310855-07f9-4b20-adeb-2c06729ada4c",
+      "official_region_id": "bc310855-07f9-4b20-adeb-2c06729ada4c",
+      "russian": "Чувашская Республика - Чувашия",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.a9401fb5-6d0d-4dc6-a11e-9f805641d147",
+      "official_region_id": "a9401fb5-6d0d-4dc6-a11e-9f805641d147",
+      "russian": "Алтайский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.d22615cf-e219-43b4-b54b-afc27083ee30",
+      "official_region_id": "d22615cf-e219-43b4-b54b-afc27083ee30",
+      "russian": "Краснодарский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.70576a06-4939-4454-a345-8c9317ae32da",
+      "official_region_id": "70576a06-4939-4454-a345-8c9317ae32da",
+      "russian": "Красноярский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.74527217-90a3-4e61-bba6-d924ac026a14",
+      "official_region_id": "74527217-90a3-4e61-bba6-d924ac026a14",
+      "russian": "Приморский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.1b05150b-35ea-465f-93fc-244d71dc1877",
+      "official_region_id": "1b05150b-35ea-465f-93fc-244d71dc1877",
+      "russian": "Ставропольский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.37c9b7d4-7f9e-4d40-8eb9-45ac90643f10",
+      "official_region_id": "37c9b7d4-7f9e-4d40-8eb9-45ac90643f10",
+      "russian": "Хабаровский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.ca174dea-b01d-4ca8-b8f7-7388f5bb18e8",
+      "official_region_id": "ca174dea-b01d-4ca8-b8f7-7388f5bb18e8",
+      "russian": "Амурская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.9f7b3a62-d9b8-4f28-8937-da7d27abe1df",
+      "official_region_id": "9f7b3a62-d9b8-4f28-8937-da7d27abe1df",
+      "russian": "Архангельская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.5e5371c0-fca7-40f8-9cd6-145d0c31c0be",
+      "official_region_id": "5e5371c0-fca7-40f8-9cd6-145d0c31c0be",
+      "russian": "Астраханская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.0376d02f-3932-4a85-a368-e0abd68b6477",
+      "official_region_id": "0376d02f-3932-4a85-a368-e0abd68b6477",
+      "russian": "Белгородская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.7c4a0308-c5e4-458a-96c5-132b9e1cccc3",
+      "official_region_id": "7c4a0308-c5e4-458a-96c5-132b9e1cccc3",
+      "russian": "Брянская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.449c4d88-297e-4103-944b-90c65e860ff4",
+      "official_region_id": "449c4d88-297e-4103-944b-90c65e860ff4",
+      "russian": "Владимирская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.735480c7-2bca-42a9-88e6-c94f3cf89748",
+      "official_region_id": "735480c7-2bca-42a9-88e6-c94f3cf89748",
+      "russian": "Волгоградская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.b6068736-c631-41a1-b3c5-d7feee37ec8a",
+      "official_region_id": "b6068736-c631-41a1-b3c5-d7feee37ec8a",
+      "russian": "Вологодская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.d117ecff-6e20-4f16-a771-cb2e2563f46a",
+      "official_region_id": "d117ecff-6e20-4f16-a771-cb2e2563f46a",
+      "russian": "Воронежская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.18265da3-0a33-4a1f-aefe-7b6bbe2272bf",
+      "official_region_id": "18265da3-0a33-4a1f-aefe-7b6bbe2272bf",
+      "russian": "Ивановская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.f881ec40-5981-4754-8c30-16fe63e7082c",
+      "official_region_id": "f881ec40-5981-4754-8c30-16fe63e7082c",
+      "russian": "Иркутская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.98bfbb01-e294-4904-af7d-7c87f34ef95c",
+      "official_region_id": "98bfbb01-e294-4904-af7d-7c87f34ef95c",
+      "russian": "Калининградская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.470ca88f-7515-4fd4-b4b3-78b3d1299595",
+      "official_region_id": "470ca88f-7515-4fd4-b4b3-78b3d1299595",
+      "russian": "Калужская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.4a64ebf8-ef9b-47b1-8a18-46949c6afe29",
+      "official_region_id": "4a64ebf8-ef9b-47b1-8a18-46949c6afe29",
+      "russian": "Кемеровская область - Кузбасс",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.3e9b9391-e036-4556-8aeb-b0da4bc58358",
+      "official_region_id": "3e9b9391-e036-4556-8aeb-b0da4bc58358",
+      "russian": "Кировская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.6fad0ef7-3fa9-40d0-b806-8fff95f80e88",
+      "official_region_id": "6fad0ef7-3fa9-40d0-b806-8fff95f80e88",
+      "russian": "Костромская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.f5ff7022-aca4-478a-8355-12de0265dcd6",
+      "official_region_id": "f5ff7022-aca4-478a-8355-12de0265dcd6",
+      "russian": "Курганская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.f4aa412d-df3f-49f3-aa85-25b6e5429864",
+      "official_region_id": "f4aa412d-df3f-49f3-aa85-25b6e5429864",
+      "russian": "Курская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.10c0e22a-8312-4f6c-b585-405433c540b7",
+      "official_region_id": "10c0e22a-8312-4f6c-b585-405433c540b7",
+      "russian": "Липецкая область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.ee32286f-9010-4f5c-83b0-478fb34b1768",
+      "official_region_id": "ee32286f-9010-4f5c-83b0-478fb34b1768",
+      "russian": "Магаданская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.6d4b7ab5-ead9-4b21-878f-e24386133210",
+      "official_region_id": "6d4b7ab5-ead9-4b21-878f-e24386133210",
+      "russian": "Московская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.e33f50c7-af1d-412f-bf89-b6791be9416b",
+      "official_region_id": "e33f50c7-af1d-412f-bf89-b6791be9416b",
+      "russian": "Мурманская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.6af6d02e-e0ba-4d4f-be85-328f5233ac44",
+      "official_region_id": "6af6d02e-e0ba-4d4f-be85-328f5233ac44",
+      "russian": "Нижегородская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.e3fbd288-143a-4b04-b87d-d4ebd7ba7fac",
+      "official_region_id": "e3fbd288-143a-4b04-b87d-d4ebd7ba7fac",
+      "russian": "Новгородская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.9b7c8978-244e-4f39-b822-dfe0629d7b82",
+      "official_region_id": "9b7c8978-244e-4f39-b822-dfe0629d7b82",
+      "russian": "Новосибирская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.9490cf36-963e-43a4-9718-19a9fb55b978",
+      "official_region_id": "9490cf36-963e-43a4-9718-19a9fb55b978",
+      "russian": "Омская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.7a6e9ab9-8440-424f-8262-9b99f4f0f65a",
+      "official_region_id": "7a6e9ab9-8440-424f-8262-9b99f4f0f65a",
+      "russian": "Оренбургская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.2e66015b-577e-485e-947b-1f095b521dc5",
+      "official_region_id": "2e66015b-577e-485e-947b-1f095b521dc5",
+      "russian": "Орловская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.e4dbfcce-ecb4-4ccf-965d-600032af6e25",
+      "official_region_id": "e4dbfcce-ecb4-4ccf-965d-600032af6e25",
+      "russian": "Пензенская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.4107719c-d456-489f-98de-b97424356019",
+      "official_region_id": "4107719c-d456-489f-98de-b97424356019",
+      "russian": "Псковская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.6131d413-1e98-404f-81bd-836968da1a15",
+      "official_region_id": "6131d413-1e98-404f-81bd-836968da1a15",
+      "russian": "Ростовская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.56098022-03ff-4e8b-863a-3d7424832b24",
+      "official_region_id": "56098022-03ff-4e8b-863a-3d7424832b24",
+      "russian": "Рязанская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.73a52b28-c531-4edf-a987-6b6443ef122e",
+      "official_region_id": "73a52b28-c531-4edf-a987-6b6443ef122e",
+      "russian": "Самарская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.2d3547ed-dd42-4bc8-a5b0-e64b473a0256",
+      "official_region_id": "2d3547ed-dd42-4bc8-a5b0-e64b473a0256",
+      "russian": "Саратовская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.f6e75e75-37c3-4490-b968-409df3422818",
+      "official_region_id": "f6e75e75-37c3-4490-b968-409df3422818",
+      "russian": "Сахалинская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.8c978434-3b77-49c0-8a6e-642e252bbeaa",
+      "official_region_id": "8c978434-3b77-49c0-8a6e-642e252bbeaa",
+      "russian": "Свердловская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.12742a64-87e6-42c0-93cc-1d93b2a3b539",
+      "official_region_id": "12742a64-87e6-42c0-93cc-1d93b2a3b539",
+      "russian": "Смоленская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.cbea3aab-ccf8-4528-b433-3adab61a5b4d",
+      "official_region_id": "cbea3aab-ccf8-4528-b433-3adab61a5b4d",
+      "russian": "Тамбовская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.0dc89cf6-5425-4f83-9ee3-4a958d4e134b",
+      "official_region_id": "0dc89cf6-5425-4f83-9ee3-4a958d4e134b",
+      "russian": "Тверская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.730c503b-04c7-4feb-90cb-e1c7e199801c",
+      "official_region_id": "730c503b-04c7-4feb-90cb-e1c7e199801c",
+      "russian": "Томская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.601324c7-73cd-4e6e-865e-519064d2d3e4",
+      "official_region_id": "601324c7-73cd-4e6e-865e-519064d2d3e4",
+      "russian": "Тульская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.0fe66f10-d42c-4b7a-947a-040144d285de",
+      "official_region_id": "0fe66f10-d42c-4b7a-947a-040144d285de",
+      "russian": "Тюменская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.b24567e8-435a-48ac-b477-d7a5dc7698fe",
+      "official_region_id": "b24567e8-435a-48ac-b477-d7a5dc7698fe",
+      "russian": "Ульяновская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.40212be9-00c5-4c0a-b738-f86510fdedce",
+      "official_region_id": "40212be9-00c5-4c0a-b738-f86510fdedce",
+      "russian": "Челябинская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.c0a8caf8-404d-41b3-bea8-50718457e169",
+      "official_region_id": "c0a8caf8-404d-41b3-bea8-50718457e169",
+      "russian": "Ярославская область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.de5ef600-8e0a-4ff7-a3c0-b290c1c1a7c8",
+      "official_region_id": "de5ef600-8e0a-4ff7-a3c0-b290c1c1a7c8",
+      "russian": "город Москва",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.781f7be4-3cdd-4a70-bcd6-2bdf40b20643",
+      "official_region_id": "781f7be4-3cdd-4a70-bcd6-2bdf40b20643",
+      "russian": "город Санкт-Петербург",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.da38f4ba-cec7-4594-9e9c-97b8694cb2b4",
+      "official_region_id": "da38f4ba-cec7-4594-9e9c-97b8694cb2b4",
+      "russian": "Еврейская автономная область",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.67e5fc8b-3b9a-426e-8a6a-25b5ae338e3a",
+      "official_region_id": "67e5fc8b-3b9a-426e-8a6a-25b5ae338e3a",
+      "russian": "Ненецкий автономный округ",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.488a961c-bf5c-440e-bd3f-e78d661c0959",
+      "official_region_id": "488a961c-bf5c-440e-bd3f-e78d661c0959",
+      "russian": "Ханты-Мансийский автономный округ - Югра",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.89e89499-7b53-4f8e-9b55-43c2397aa49b",
+      "official_region_id": "89e89499-7b53-4f8e-9b55-43c2397aa49b",
+      "russian": "Чукотский автономный округ",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.0ad54ea8-1156-4be9-833b-90ff86cbfbbb",
+      "official_region_id": "0ad54ea8-1156-4be9-833b-90ff86cbfbbb",
+      "russian": "Ямало-Ненецкий автономный округ",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.9a542082-c86a-42a2-a2c9-8ffe74737c00",
+      "official_region_id": "9a542082-c86a-42a2-a2c9-8ffe74737c00",
+      "russian": "Пермский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.ead718a0-f044-4931-9c8a-ed625992ba33",
+      "official_region_id": "ead718a0-f044-4931-9c8a-ed625992ba33",
+      "russian": "Камчатский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.cd957772-4ab3-4755-90cd-595c618272d5",
+      "official_region_id": "cd957772-4ab3-4755-90cd-595c618272d5",
+      "russian": "Забайкальский край",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.efc34199-ea99-4312-b3e3-0a422e2fddf9",
+      "official_region_id": "efc34199-ea99-4312-b3e3-0a422e2fddf9",
+      "russian": "Республика Крым",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "key": "region.5967602c-308c-4122-8aeb-a5911bd4c789",
+      "official_region_id": "5967602c-308c-4122-8aeb-a5911bd4c789",
+      "russian": "город Севастополь",
+      "source": "publication/sites/v1/sources.json"
+    },
+    {
+      "design_id": "R1-T1-D1-M1",
+      "key": "design.R1-T1-D1-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 75% / Множитель размера до 1,25 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T1-D1-M2",
+      "key": "design.R1-T1-D1-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 75% / Множитель размера до 1,25 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T1-D2-M1",
+      "key": "design.R1-T1-D2-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 75% / Множитель размера до 1,5 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T1-D2-M2",
+      "key": "design.R1-T1-D2-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 75% / Множитель размера до 1,5 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T2-D1-M1",
+      "key": "design.R1-T2-D1-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 87,5% / Множитель размера до 1,25 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T2-D1-M2",
+      "key": "design.R1-T2-D1-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 87,5% / Множитель размера до 1,25 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T2-D2-M1",
+      "key": "design.R1-T2-D2-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 87,5% / Множитель размера до 1,5 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R1-T2-D2-M2",
+      "key": "design.R1-T2-D2-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 50% / Ранг не ниже 87,5% / Множитель размера до 1,5 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T1-D1-M1",
+      "key": "design.R2-T1-D1-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 75% / Множитель размера до 1,25 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T1-D1-M2",
+      "key": "design.R2-T1-D1-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 75% / Множитель размера до 1,25 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T1-D2-M1",
+      "key": "design.R2-T1-D2-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 75% / Множитель размера до 1,5 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T1-D2-M2",
+      "key": "design.R2-T1-D2-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 75% / Множитель размера до 1,5 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T2-D1-M1",
+      "key": "design.R2-T2-D1-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 87,5% / Множитель размера до 1,25 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T2-D1-M2",
+      "key": "design.R2-T2-D1-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 87,5% / Множитель размера до 1,25 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T2-D2-M1",
+      "key": "design.R2-T2-D2-M1",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 87,5% / Множитель размера до 1,5 / Не менее 3",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "design_id": "R2-T2-D2-M2",
+      "key": "design.R2-T2-D2-M2",
+      "russian": "Ранг интенсивности выдачи от 25% до 62,5% / Ранг не ниже 87,5% / Множитель размера до 1,5 / Не менее 5",
+      "source": "publication/sites/v1/designs.json"
+    },
+    {
+      "key": "sources.versions.primary",
+      "russian": "Основная версия исходных данных",
+      "source": "publication/sites/v1/sources.json",
+      "source_version": "primary"
+    },
+    {
+      "key": "sources.versions.S1",
+      "russian": "S1 — версия с изменённым составом участков",
+      "source": "publication/sites/v1/sources.json",
+      "source_version": "S1"
+    },
+    {
+      "key": "sources.versions.S2a",
+      "russian": "S2a — альтернативная версия исходных значений",
+      "source": "publication/sites/v1/sources.json",
+      "source_version": "S2a"
+    },
+    {
+      "key": "sources.versions.S2b",
+      "russian": "S2b — альтернативная версия исходных значений",
+      "source": "publication/sites/v1/sources.json",
+      "source_version": "S2b"
+    },
+    {
+      "extraction": "Nested template fallback inspected separately.",
+      "key": "region.name_unavailable",
+      "russian": "название отсутствует",
+      "source": "en-publication-0LIYyF6j.js"
+    }
+  ],
+  "new_explanatory_copy_keys": [
+    "translation.notice",
+    "translation.russian_link",
+    "translation.english_link"
+  ],
+  "repository_sources": [
+    {
+      "bytes": 9431,
+      "path": "publication/sites/v1/designs.json",
+      "release": "ru-release-v1",
+      "sha256": "0700255241f425056669e86e10702b0a22ca6fda25abcfd736912d99a85aa212"
+    },
+    {
+      "bytes": 14079,
+      "path": "publication/sites/v1/sources.json",
+      "release": "ru-release-v1",
+      "sha256": "1e05e00b4c56db5f3f48c5fc1be5e26500c64fdeb85f1caef3cf5285fccc033d"
+    },
+    {
+      "bytes": 51626,
+      "path": "publication/sites/v1/runtime/methods.json",
+      "release": "ru-release-v1",
+      "sha256": "5f335af4e49f0b613133b4d05c57dc8e9da8485baea209166cbf1fdfdbd37d3e"
+    },
+    {
+      "bytes": 133310,
+      "path": "publication/articles/v2/technical_article.md",
+      "release": "ru-release-v1",
+      "sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f"
+    },
+    {
+      "bytes": 5850,
+      "path": "reproducibility/v1/REPRODUCE.md",
+      "release": "ru-release-v1",
+      "sha256": "6b8777050a28602e1d102ea88ee1cff68ffdc5760c3160d2b86056e0201a1505"
+    },
+    {
+      "bytes": 1743,
+      "path": "LICENSE.md",
+      "release": "ru-release-v1",
+      "sha256": "a24faaf75b0c8931be37c95c6410edac01f931fa499712009fbb3673f9ac6b78"
+    },
+    {
+      "bytes": 5659,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "release": "ru-release-v1",
+      "sha256": "fb35a397db6f6871ec5fd6a5430f9560a38af36f941a553b6bf498453a38b7d1"
+    }
+  ],
+  "route_shell_sources": [
+    {
+      "bytes": 16183,
+      "scope": "Page shell only; article body is translated from frozen Markdown, not scraped HTML.",
+      "sha256": "60d5f4ed838e63c9d1c02a30ee5454a40a0b9ef0009d2d3f0562c19b18b974ca",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/"
+    },
+    {
+      "bytes": 350601,
+      "scope": "Page shell only; article body is translated from frozen Markdown, not scraped HTML.",
+      "sha256": "104fa6ae4ff27d6449c5a46122bac4ff2496af29902a3fe1f8e729eb302496a7",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/article"
+    },
+    {
+      "bytes": 12291,
+      "scope": "Page shell only; article body is translated from frozen Markdown, not scraped HTML.",
+      "sha256": "eb452bb5ec8de1c63c749fd11043a9bf35c6f7ff7aa758c96431288a07c5a58f",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/methods"
+    },
+    {
+      "bytes": 16045,
+      "scope": "Page shell only; article body is translated from frozen Markdown, not scraped HTML.",
+      "sha256": "4a9844a5b99b2e900301dadd21d7e51bbc0cf7ff57b7ded263b304110d6b43fe",
+      "url": "https://election-2026-explorer.max-tar.chatgpt.site/sources"
+    }
+  ],
+  "schema_version": "1",
+  "supplementary_keys_policy": "Additional complete captions, explicit terminology, tooltip templates, license boundaries and rerun caveats render existing frozen meanings without adding calculation rules.",
+  "template_policy": "Use named presentation placeholders. Split JavaScript template fragments are represented by complete messages, not by evaluating JavaScript in the translation catalog."
+}

@@ -1,0 +1,615 @@
+{
+  "authoritative_release": "ru-release-v1",
+  "checks": [
+    {
+      "check": "scenario_not_prediction_or_truth",
+      "note": "Conditional calculations remain conditional. No true-result ranking or new political conclusion.",
+      "status": "PASS"
+    },
+    {
+      "check": "abc_symmetric_ten_party",
+      "note": "All ten party rows, counts, support gates and identity extension outside model support are preserved.",
+      "status": "PASS"
+    },
+    {
+      "check": "d_project_focal_scenario",
+      "note": "D remains a project-created focal-party scenario, not an improved Cedar/Shpilkin method. Undefined is not zero.",
+      "status": "PASS"
+    },
+    {
+      "check": "cedar_residual_denominator",
+      "note": "Signed residual / observed focal votes remains distinct from party share. The illustrative all-counted-ballots denominator and native frame are preserved.",
+      "status": "PASS"
+    },
+    {
+      "check": "istories_reconstruction",
+      "note": "Incomplete source implementation and project [20%,30%) choice remain explicit. Default does not acquire scientific preference.",
+      "status": "PASS"
+    },
+    {
+      "check": "window_anchor_sensitivity",
+      "note": "Unequal reference counts and fixed grids are preserved. Neither range becomes a confidence or truth interval.",
+      "status": "PASS"
+    },
+    {
+      "check": "novaya_1d_center",
+      "note": "Vote-mass histogram, lowest-center selection, direct component-center output and separate attributed honest-core interpretation are preserved.",
+      "status": "PASS"
+    },
+    {
+      "check": "bin_width_sigma_coupling",
+      "note": "Histogram-width sensitivity still changes the lower component-width bound as well.",
+      "status": "PASS"
+    },
+    {
+      "check": "novaya_2d_membership",
+      "note": "Issued/registered coordinate, aggregate membership and threshold fit reuse remain distinct. Membership is not honesty/fraud probability.",
+      "status": "PASS"
+    },
+    {
+      "check": "covariance_geometry",
+      "note": "Covariance ellipses in site copy describe component geometry, not causal or honesty boundaries.",
+      "status": "PASS"
+    },
+    {
+      "check": "geometry_and_anomaly",
+      "note": "Visible core/comet-tail geometry is descriptive. Statistical anomaly does not prove a violation or determine a counterfactual.",
+      "status": "PASS"
+    },
+    {
+      "check": "bounded_g_no_go",
+      "note": "Requirements analysis and two artificial mathematical examples remain distinct from implemented fits or an executed synthetic benchmark. No universal impossibility is claimed.",
+      "status": "PASS"
+    },
+    {
+      "check": "source_geography_sensitivity",
+      "note": "Four source versions and leave-one-region-out remain bounded sensitivity checks, not source correctness or bad-region rankings.",
+      "status": "PASS"
+    },
+    {
+      "check": "shared_results_not_confirmation",
+      "note": "Similar outputs are not independent confirmation. Different estimands are not averaged or pooled into a truth range.",
+      "status": "PASS"
+    },
+    {
+      "check": "pre_fixing_and_future_work",
+      "note": "Fixing a rule does not justify it. The future-work statement remains about corresponding unperformed calculations, not all ideas predating all main results.",
+      "status": "PASS"
+    },
+    {
+      "check": "reproducibility_and_license",
+      "note": "Public code/config/results distinguished from non-redistributed third-party raw snapshots. License grants remain restricted to eligible project-authored material.",
+      "status": "PASS"
+    },
+    {
+      "check": "attribution_names_voice",
+      "note": "First-person responsibility, external interpretations, consistent party/source labels and uncertainty are retained.",
+      "status": "PASS"
+    },
+    {
+      "check": "ai_disclosures_separate",
+      "note": "Research assistance and machine translation are disclosed separately. The human author retains the research decisions.",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Model-assisted translation and model-assisted review can still contain errors. Russian remains authoritative.",
+    "No English route implementation, rendered layout or browser localization QA was performed.",
+    "Party labels are consistent faithful short names where full official English branding is not established."
+  ],
+  "mechanical_validation": {
+    "articles": {
+      "narrative.md": {
+        "blockquote_lines": 2,
+        "details_count": 0,
+        "english_sha256": "7ded38edf6e3c135d696f7c604cb99d0fa917738d5bcbee21ac6ec866f1f97e9",
+        "figure_anchors": 0,
+        "heading_count": 11,
+        "line_structure_matches": true,
+        "links": 7,
+        "numbers_links_formulas_tables_emphasis_match": true,
+        "numeric_tokens": 70,
+        "russian_sha256": "fdf9226505f85b34e45f0a3831bff8485c8093e25405276fd9748c6287872e0d",
+        "table_count": 0,
+        "table_lines": 0,
+        "unordered_items": 2,
+        "untranslated_prose_occurrences": 0
+      },
+      "technical_article.md": {
+        "blockquote_lines": 16,
+        "details_count": 17,
+        "english_sha256": "868561def3dcd8a3c7f64226ecfbda0615d9f9a46ae9b30b6993654b364e01f2",
+        "figure_anchors": 8,
+        "heading_count": 43,
+        "line_structure_matches": true,
+        "links": 21,
+        "numbers_links_formulas_tables_emphasis_match": true,
+        "numeric_tokens": 626,
+        "russian_sha256": "f08eba55efabb86fd996b2c99d81d7c0a75ed064d8229122a4ac16e43767f19f",
+        "table_count": 9,
+        "table_lines": 95,
+        "unordered_items": 61,
+        "untranslated_prose_occurrences": 0
+      }
+    },
+    "science_calls": 0,
+    "scientific_bindings_unchanged": true,
+    "site_catalog": {
+      "designs": 16,
+      "parties": 10,
+      "regions": 84,
+      "source_mappings": 415,
+      "strings": 472,
+      "untranslated_reader_strings": 0
+    },
+    "status": "PASS",
+    "writes": 0
+  },
+  "resolved_translation_issues": [
+    {
+      "location": "technical_article.md, Reproducibility, source line 1059",
+      "problem": "An initial English until construction could imply delayed tuning rather than absence of tuning to the desired output.",
+      "resolution": "Uses parameters were not tuned to obtain the desired number.",
+      "status": "RESOLVED"
+    },
+    {
+      "location": "First relevant TIK occurrence",
+      "problem": "The initial draft used TIK before the expansion.",
+      "resolution": "Expanded territorial election commission (TIK) at the first occurrence.",
+      "status": "RESOLVED"
+    },
+    {
+      "location": "site Strings Sources reproducibility status",
+      "problem": "Captured UI has stale pre-release wording.",
+      "resolution": "Higher-priority frozen article/release statement used and source conflict recorded. Russian files unchanged.",
+      "status": "RESOLVED"
+    }
+  ],
+  "review_type": "separate_adversarial_RU_EN_semantic_pass_after_drafting",
+  "reviewer": "same OpenAI assistant; not an independent human review",
+  "schema_version": "1",
+  "sections": {
+    "narrative.md": [
+      {
+        "english_heading": "# Between the data and the conclusion",
+        "english_start_line": 1,
+        "russian_end_line": 23,
+        "russian_heading": "# Между данными и выводом",
+        "russian_start_line": 1,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What if we compare similar precincts?",
+        "english_start_line": 26,
+        "russian_end_line": 54,
+        "russian_heading": "## Что если сравнивать похожие участки?",
+        "russian_start_line": 24,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## One party versus everyone else",
+        "english_start_line": 57,
+        "russian_end_line": 80,
+        "russian_heading": "## Одна партия против всех",
+        "russian_start_line": 55,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Important Stories",
+        "english_start_line": 83,
+        "russian_end_line": 100,
+        "russian_heading": "### «Важные истории»",
+        "russian_start_line": 81,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Cedar",
+        "english_start_line": 103,
+        "russian_end_line": 131,
+        "russian_heading": "### Cedar",
+        "russian_start_line": 101,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What if we put together another version of this idea?",
+        "english_start_line": 134,
+        "russian_end_line": 148,
+        "russian_heading": "## А что если слепить ещё одну версию этой идеи?",
+        "russian_start_line": 132,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Novaya Gazeta Europe",
+        "english_start_line": 151,
+        "russian_end_line": 182,
+        "russian_heading": "## «Новая газета Европа»",
+        "russian_start_line": 149,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What if we look in two dimensions?",
+        "english_start_line": 185,
+        "russian_end_line": 199,
+        "russian_heading": "## А если смотреть в двух измерениях?",
+        "russian_start_line": 183,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Anomalies",
+        "english_start_line": 202,
+        "russian_end_line": 220,
+        "russian_heading": "## Аномалии",
+        "russian_start_line": 200,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Are there any conclusions?",
+        "english_start_line": 223,
+        "russian_end_line": 248,
+        "russian_heading": "## Выводы будут?",
+        "russian_start_line": 221,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## So which percentage is correct?",
+        "english_start_line": 251,
+        "russian_end_line": 297,
+        "russian_heading": "## Так какой же процент правильный?",
+        "russian_start_line": 249,
+        "semantic_status": "PASS"
+      }
+    ],
+    "technical_article.md": [
+      {
+        "english_heading": "# Same Data, Different Models",
+        "english_start_line": 1,
+        "russian_end_line": 24,
+        "russian_heading": "# Одни данные, разные модели",
+        "russian_start_line": 1,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## First, an example",
+        "english_start_line": 27,
+        "russian_end_line": 54,
+        "russian_heading": "## Для начала — один пример",
+        "russian_start_line": 25,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Which data are included in the study?",
+        "english_start_line": 57,
+        "russian_end_line": 152,
+        "russian_heading": "## Какие данные вошли в исследование?",
+        "russian_start_line": 55,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## How can one table produce different answers?",
+        "english_start_line": 155,
+        "russian_end_line": 181,
+        "russian_heading": "## Почему из одной таблицы вообще можно получить разные ответы?",
+        "russian_start_line": 153,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### A/B/C",
+        "english_start_line": 184,
+        "russian_end_line": 205,
+        "russian_heading": "### A/B/C",
+        "russian_start_line": 182,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### D",
+        "english_start_line": 208,
+        "russian_end_line": 228,
+        "russian_heading": "### D",
+        "russian_start_line": 206,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Important Stories",
+        "english_start_line": 231,
+        "russian_end_line": 241,
+        "russian_heading": "### «Важные истории»",
+        "russian_start_line": 229,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Cedar",
+        "english_start_line": 244,
+        "russian_end_line": 255,
+        "russian_heading": "### Cedar",
+        "russian_start_line": 242,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Novaya Gazeta Europe's one-dimensional model",
+        "english_start_line": 258,
+        "russian_end_line": 272,
+        "russian_heading": "### Одномерная модель «Новой»",
+        "russian_start_line": 256,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Novaya Gazeta Europe's two-dimensional model",
+        "english_start_line": 275,
+        "russian_end_line": 283,
+        "russian_heading": "### Двумерная модель «Новой»",
+        "russian_start_line": 273,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Shared checks for the additional methods",
+        "english_start_line": 286,
+        "russian_end_line": 301,
+        "russian_heading": "### Общие проверки для дополнительных методов",
+        "russian_start_line": 284,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What should we do with statistically unusual structures?",
+        "english_start_line": 304,
+        "russian_end_line": 351,
+        "russian_heading": "## Что делать со статистически необычными структурами?",
+        "russian_start_line": 302,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Which calculation families are compared?",
+        "english_start_line": 354,
+        "russian_end_line": 355,
+        "russian_heading": "## Какие семейства расчётов сравниваются?",
+        "russian_start_line": 352,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### 1. What if we compare a precinct with similar precincts nearby?",
+        "english_start_line": 358,
+        "russian_end_line": 359,
+        "russian_heading": "### 1. Что если сравнивать участок с похожими участками рядом?",
+        "russian_start_line": 356,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### 2. What if we compare one party with all the others combined?",
+        "english_start_line": 362,
+        "russian_end_line": 378,
+        "russian_heading": "### 2. Что если сравнивать одну партию с суммой остальных?",
+        "russian_start_line": 360,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### 3. What if, instead of recalculating every vote, we look for a characteristic area of the distribution?",
+        "english_start_line": 381,
+        "russian_end_line": 399,
+        "russian_heading": "### 3. Что если не пересчитывать все голоса, а искать характерную область распределения?",
+        "russian_start_line": 379,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## A/B/C: local comparison of precincts",
+        "english_start_line": 402,
+        "russian_end_line": 413,
+        "russian_heading": "## A/B/C: локальное сравнение участков",
+        "russian_start_line": 400,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### In plain terms?",
+        "english_start_line": 416,
+        "russian_end_line": 421,
+        "russian_heading": "### А если на пальцах?",
+        "russian_start_line": 414,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### How are comparison precincts selected?",
+        "english_start_line": 424,
+        "russian_end_line": 480,
+        "russian_heading": "### Как выбираются участки для сравнения?",
+        "russian_start_line": 422,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### What did A/B/C produce?",
+        "english_start_line": 483,
+        "russian_end_line": 525,
+        "russian_heading": "### Что получилось в A/B/C?",
+        "russian_start_line": 481,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### How much do A/B/C change under other predeclared rules?",
+        "english_start_line": 528,
+        "russian_end_line": 565,
+        "russian_heading": "### Насколько меняются A/B/C при других заранее заданных правилах",
+        "russian_start_line": 526,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## One party versus the rest: one idea, several implementations",
+        "english_start_line": 568,
+        "russian_end_line": 573,
+        "russian_heading": "## Партия против остальных: одна идея, несколько реализаций",
+        "russian_start_line": 566,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Cedar: one reference interval",
+        "english_start_line": 576,
+        "russian_end_line": 646,
+        "russian_heading": "### Cedar: один опорный интервал",
+        "russian_start_line": 574,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Important Stories: the 20–29% reference range",
+        "english_start_line": 649,
+        "russian_end_line": 695,
+        "russian_heading": "### «Важные истории»: опорный диапазон 20–29%",
+        "russian_start_line": 647,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### D: another version of the same general idea",
+        "english_start_line": 698,
+        "russian_end_line": 772,
+        "russian_heading": "### D: ещё одна версия той же общей идеи",
+        "russian_start_line": 696,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Novaya Gazeta Europe's published calculation of about 25%",
+        "english_start_line": 775,
+        "russian_end_line": 781,
+        "russian_heading": "### Опубликованный расчёт «Новой» около 25%",
+        "russian_start_line": 773,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## “Core” models: when the percentage no longer means a recalculated result",
+        "english_start_line": 784,
+        "russian_end_line": 794,
+        "russian_heading": "## Модели «ядра»: когда процент означает уже не пересчитанный результат",
+        "russian_start_line": 782,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Comparison around the core: about 34%",
+        "english_start_line": 797,
+        "russian_end_line": 806,
+        "russian_heading": "### Сравнение в районе ядра: около 34%",
+        "russian_start_line": 795,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### The one-dimensional model: three Gaussians",
+        "english_start_line": 809,
+        "russian_end_line": 848,
+        "russian_heading": "### Одномерная модель: три гауссианы",
+        "russian_start_line": 807,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### The two-dimensional model: where the “core” is and which precincts the model assigns to it",
+        "english_start_line": 851,
+        "russian_end_line": 897,
+        "russian_heading": "### Двумерная модель: где находится «ядро» и какие участки модель к нему относит",
+        "russian_start_line": 849,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What changes if we change one rule?",
+        "english_start_line": 900,
+        "russian_end_line": 903,
+        "russian_heading": "## Что меняется, если поменять одно правило?",
+        "russian_start_line": 898,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### A/B/C and D",
+        "english_start_line": 906,
+        "russian_end_line": 915,
+        "russian_heading": "### A/B/C и D",
+        "russian_start_line": 904,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Reconstruction of the Important Stories approach",
+        "english_start_line": 918,
+        "russian_end_line": 923,
+        "russian_heading": "### Реконструкция подхода «Важных историй»",
+        "russian_start_line": 916,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### Cedar",
+        "english_start_line": 926,
+        "russian_end_line": 931,
+        "russian_heading": "### Cedar",
+        "russian_start_line": 924,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### The one-dimensional and two-dimensional models",
+        "english_start_line": 934,
+        "russian_end_line": 938,
+        "russian_heading": "### Одномерная и двумерная модели",
+        "russian_start_line": 932,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "### What can we conclude from this?",
+        "english_start_line": 941,
+        "russian_end_line": 949,
+        "russian_heading": "### Какой из этого можно сделать вывод?",
+        "russian_start_line": 939,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## So what did the study show?",
+        "english_start_line": 952,
+        "russian_end_line": 972,
+        "russian_heading": "## Так что же показало исследование?",
+        "russian_start_line": 950,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What follows from this (and what does not)?",
+        "english_start_line": 975,
+        "russian_end_line": 1009,
+        "russian_heading": "## Что из этого следует (и чего не следует)?",
+        "russian_start_line": 973,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## How can you explore this yourself?",
+        "english_start_line": 1012,
+        "russian_end_line": 1034,
+        "russian_heading": "## Как это можно посмотреть самому?",
+        "russian_start_line": 1010,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Who conducted the research, and how?",
+        "english_start_line": 1037,
+        "russian_end_line": 1043,
+        "russian_heading": "## Кто и как делал исследование",
+        "russian_start_line": 1035,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## Reproducibility",
+        "english_start_line": 1046,
+        "russian_end_line": 1064,
+        "russian_heading": "## Воспроизводимость",
+        "russian_start_line": 1044,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What else was examined during the study?",
+        "english_start_line": 1067,
+        "russian_end_line": 1083,
+        "russian_heading": "## Что ещё проверялось по ходу исследования",
+        "russian_start_line": 1065,
+        "semantic_status": "PASS"
+      },
+      {
+        "english_heading": "## What could be studied next?",
+        "english_start_line": 1086,
+        "russian_end_line": 1109,
+        "russian_heading": "## Что можно изучить дальше",
+        "russian_start_line": 1084,
+        "semantic_status": "PASS"
+      }
+    ]
+  },
+  "status": "PASS",
+  "translation_hashes": {
+    "narrative.md": "7ded38edf6e3c135d696f7c604cb99d0fa917738d5bcbee21ac6ec866f1f97e9",
+    "technical_article.md": "868561def3dcd8a3c7f64226ecfbda0615d9f9a46ae9b30b6993654b364e01f2"
+  },
+  "unresolved_semantic_findings": []
+}
